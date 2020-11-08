@@ -1,5 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!95 &1209061131153622717
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7163367640501057312}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ef911af4cae437b439fec6270718067b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7342782503552831529
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,6 +411,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 472782453293001577, guid: fc3aca47896989347894b0eb308bbf64, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 472782453293001579, guid: fc3aca47896989347894b0eb308bbf64, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 472782453293001579, guid: fc3aca47896989347894b0eb308bbf64, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 472782453293001579, guid: fc3aca47896989347894b0eb308bbf64, type: 3}
+      propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 472782453348230644, guid: fc3aca47896989347894b0eb308bbf64, type: 3}
@@ -428,5 +459,10 @@ GameObject:
 --- !u!224 &7163367639857687711 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 472782452850962646, guid: fc3aca47896989347894b0eb308bbf64, type: 3}
+  m_PrefabInstance: {fileID: 7342782504019352649}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7163367640501057312 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 472782453293001577, guid: fc3aca47896989347894b0eb308bbf64, type: 3}
   m_PrefabInstance: {fileID: 7342782504019352649}
   m_PrefabAsset: {fileID: 0}
