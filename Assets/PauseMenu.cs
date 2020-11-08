@@ -14,14 +14,17 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-       if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
+   
             if (GameIsPaused)
             {
+                Debug.Log("ESC IS BEING PRESSED");
                 Resume();
             }
             else
             {
+                Debug.Log("ESC IS BEING PRESSED");
                 Pause();
             }
         } 
@@ -36,15 +39,9 @@ public class PauseMenu : MonoBehaviour
 
     void Pause()
     {
-        //if (creditsMenuUI.active = false)
-        //{
-        
-        //}
-
             pauseMenuUI.SetActive(true);
             Time.timeScale = 0f;
-            GameIsPaused = true;
-        
+            GameIsPaused = true;   
     }
 
     public void LoadMenu()
