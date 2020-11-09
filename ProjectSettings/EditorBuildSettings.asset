@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Mike/Scenes/MainMenu.unity
     guid: cdbe6740ee11455499ff78aa05554f2f
   - enabled: 1
+    path: Assets/Mike/Scenes/Intro.unity
+    guid: 5cca40cce4339da439e8d87277121ded
+  - enabled: 1
     path: Assets/Mike/Scenes/Test_Scene.unity
     guid: c7ddc5cbcf269004480725e7ac728c53
   m_configObjects: {}
