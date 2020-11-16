@@ -11,6 +11,7 @@ public class PlayerLife : MonoBehaviour
     public static float currentHealth;
 
     public float damage;
+    public Text T_GameOver;
 
     void Start()
     {
@@ -49,6 +50,9 @@ public class PlayerLife : MonoBehaviour
     {
         gameObject.SetActive(false);
         healthSlider.value = 0;
+        
+        //T_GameOver.text.setActive(true);
+        
         //Destroy(gameObject);
     }
     
