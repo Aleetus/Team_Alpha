@@ -2,27 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyBehaviour : MonoBehaviour
+public class DeathTouch : MonoBehaviour
 {
-    public float hitPoints;
-    public float maxHitPoints = 5;
-
-    public float Damage = 10;
-
-
+    public float Damage = 10000000;
     // Start is called before the first frame update
     void Start()
     {
-        hitPoints = maxHitPoints;
+        
     }
 
-    void TakeHit(float damage)
+    // Update is called once per frame
+    void Update()
     {
-        hitPoints -= damage;
-        if (hitPoints <= 0)
-        {
-            Destroy(gameObject);
-        }
+        
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
