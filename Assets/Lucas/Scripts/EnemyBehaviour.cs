@@ -7,7 +7,7 @@ public class EnemyBehaviour : MonoBehaviour
     public float hitPoints;
     public float maxHitPoints = 5;
 
-    public float Damage = 10;
+    public static float Damage = 10;
 
 
     // Start is called before the first frame update
@@ -24,11 +24,5 @@ public class EnemyBehaviour : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag.Equals("Player"))
-        {
-            PlayerLife.currentHealth -= Damage;
-        }
-    }
+
 }
