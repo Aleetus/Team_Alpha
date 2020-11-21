@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Lucas/Scene/Side-Scroller Test.unity
     guid: 0b07569e0604eb14da2b8ee7341c227c
+  - enabled: 1
+    path: Assets/Lucas/Scene/Side-Scroller Level-Idea.unity
+    guid: 338c22bc801717d42a3c6b388cb5c191
   m_configObjects: {}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4020015031657586784}
   m_Layer: 0
   m_Name: DEATH_floor
-  m_TagString: Untagged
+  m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56,7 +56,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 304.7189, y: 6.972439}
+  m_Size: {x: 200, y: 20}
   m_EdgeRadius: 0
 --- !u!114 &4020015031657586784
 MonoBehaviour:
@@ -70,4 +70,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1fe211408ef4cb439d47da18691a1bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage: 10000000
