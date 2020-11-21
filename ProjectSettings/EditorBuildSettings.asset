@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Mike/Scenes/Test_Scene.unity
     guid: c7ddc5cbcf269004480725e7ac728c53
+  - enabled: 1
+    path: Assets/Lucas/Scene/Side-Scroller Test.unity
+    guid: 0b07569e0604eb14da2b8ee7341c227c
   m_configObjects: {}

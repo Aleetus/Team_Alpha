@@ -4,23 +4,13 @@ using UnityEngine;
 
 public class DeathTouch : MonoBehaviour
 {
-    public float Damage = 10000000;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //public float Damage = 10000000;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag.Equals("Player"))
-        {
-            PlayerLife.currentHealth -= Damage;
-        }
-    }
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+        //if (collision.gameObject.tag.Equals("Player"))
+        //{
+            //PlayerLife.currentHealth -= Damage;
+        //}
+    //}
 }

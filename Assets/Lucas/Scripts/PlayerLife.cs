@@ -5,16 +5,23 @@ using UnityEngine.UI;
 
 public class PlayerLife : MonoBehaviour
 {
+    [SerializeField] Transform spawnPoint;
 
     public Slider healthSlider;
     public float maxHealth;
     public static float currentHealth;
 
+    public Image[] lives;
+    public int livesRemaining;
+
     public float damage;
-    public Text T_GameOver;
+    public GameObject GameOver_Canvas;
+
 
     void Start()
     {
+        GameOver_Canvas.SetActive(false);
+
         currentHealth = maxHealth; // The players health is set to the max health at the start.
     }
 
@@ -24,15 +31,41 @@ public class PlayerLife : MonoBehaviour
 
         if (currentHealth <= 0) // If the player health is 0 they die.
         {
-            Death();
+            LoseLife();
+            currentHealth = maxHealth;
+            //gameObject.transform.position = spawnPoint.transform;
         }
     }
 
-    void Death()  // This Kills the player.
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        gameObject.SetActive(false);
-        healthSlider.value = 0;
-        //T_GameOver.text.SetActive(true);
+        if (collision.gameObject.tag.Equals("Enemy"))
+        {
+            currentHealth -= EnemyBehaviour.Damage;
+        }
+        if (collision.gameObject.tag.Equals("Death"))
+        {
+            GameOver_Canvas.SetActive(true);
+            gameObject.SetActive(false);
+            Debug.Log("hit death");
+        }
     }
-    
+
+    public void LoseLife()
+    {
+        if (livesRemaining == 0)
+            return;
+
+        livesRemaining--;
+        lives[livesRemaining].enabled = false;
+
+        if (livesRemaining == 0)
+        {
+            GameOver_Canvas.SetActive(true);
+            gameObject.SetActive(false);
+
+        }
+
+    }
+
 }
