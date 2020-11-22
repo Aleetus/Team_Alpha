@@ -339,7 +339,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: 0
   maxHitPoints: 5
-  Damage: 10
 --- !u!61 &59756029
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -888,7 +887,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: 0
   maxHitPoints: 5
-  Damage: 10
 --- !u!61 &170849769
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1483,7 +1481,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: 0
   maxHitPoints: 5
-  Damage: 10
 --- !u!61 &279592018
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2141,7 +2138,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 1873b62978311e4469cc386c8a3c2e78, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2372,7 +2369,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: 0
   maxHitPoints: 5
-  Damage: 10
 --- !u!61 &465029777
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2764,7 +2760,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: 0
   maxHitPoints: 5
-  Damage: 10
 --- !u!61 &508867796
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3249,7 +3244,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: 0
   maxHitPoints: 5
-  Damage: 10
 --- !u!61 &632281594
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4790,11 +4784,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1881599020219047350, guid: 19ef731408b86da4d9c0872ebcbcca85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 220.45
+      value: 220.71
       objectReference: {fileID: 0}
     - target: {fileID: 1881599020219047350, guid: 19ef731408b86da4d9c0872ebcbcca85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.49
+      value: -5.87
       objectReference: {fileID: 0}
     - target: {fileID: 1881599020219047350, guid: 19ef731408b86da4d9c0872ebcbcca85, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5280,7 +5274,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: 0
   maxHitPoints: 5
-  Damage: 10
 --- !u!61 &1234658556
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5391,7 +5384,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: 0
   maxHitPoints: 5
-  Damage: 10
 --- !u!61 &1314975412
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5517,7 +5509,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: 0
   maxHitPoints: 5
-  Damage: 10
 --- !u!61 &1376601192
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6196,10 +6187,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ca5c9daf820bdb4fbe2775eee17934d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 0}
   healthSlider: {fileID: 1217188170}
   maxHealth: 100
+  lives: []
+  livesRemaining: 0
   damage: 10
-  T_GameOver: {fileID: 0}
+  GameOver_Canvas: {fileID: 0}
 --- !u!1 &1613952743
 GameObject:
   m_ObjectHideFlags: 0
@@ -6233,7 +6227,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: 0
   maxHitPoints: 5
-  Damage: 10
 --- !u!61 &1613952745
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6520,7 +6513,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: 0
   maxHitPoints: 5
-  Damage: 10
 --- !u!61 &1652700241
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7235,6 +7227,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 1881599020219047351, guid: 19ef731408b86da4d9c0872ebcbcca85, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19ef731408b86da4d9c0872ebcbcca85, type: 3}
 --- !u!1001 &1906759250
@@ -7726,7 +7722,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: 0
   maxHitPoints: 5
-  Damage: 10
 --- !u!61 &2115745478
 BoxCollider2D:
   m_ObjectHideFlags: 0
