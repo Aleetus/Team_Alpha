@@ -1,13 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PC_Movement : MonoBehaviour
 {
     public float f_speed;
-
+    public string loadScene;
+    bool canLoadScene = false;
 
     // Update is called once per frame
+    
     void Update()
     {
         lookatMouse();
@@ -19,6 +22,9 @@ public class PC_Movement : MonoBehaviour
         Vector2 direction = new Vector2(x, y).normalized;
 
         Move (direction);
+
+        if (Input.GetKeyDown("space")) canLoadScene = true;
+
     }
 
     void Move(Vector2 direction)
@@ -41,6 +47,23 @@ public class PC_Movement : MonoBehaviour
         Vector2 direction = new Vector2(mousePosition.x - transform.position.x, mousePosition.y - transform.position.y);
 
         transform.up = direction;
+    }
+
+    private void OnTriggerStay2D(Collider2D collider)
+    {
+        Debug.Log("Trigger!");
+
+        if (collider.tag == "Planet")
+        {
+            Debug.Log("Planet!!");
+
+            if (canLoadScene == true)
+            {
+                canLoadScene = false;
+                SceneManager.LoadScene(loadScene);
+            }
+
+        }
     }
 
 }

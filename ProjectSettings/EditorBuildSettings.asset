@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Lucas/Scene/Side-Scroller Level-Idea.unity
     guid: 338c22bc801717d42a3c6b388cb5c191
+  - enabled: 1
+    path: Assets/Mike/Scenes/TopDownTest.unity
+    guid: 1da03acc1cf6f3c489a6131d22be0aa2
   m_configObjects: {}
