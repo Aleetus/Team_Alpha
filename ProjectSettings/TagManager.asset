@@ -6,7 +6,9 @@ TagManager:
   tags:
   - Enemy
   - Death
-  - Planet
+  - IcePlanet
+  - LavaPlanet
+  - SandPlanet
   layers:
   - Default
   - TransparentFX

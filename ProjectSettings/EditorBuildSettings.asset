@@ -26,4 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Mike/Scenes/TopDownTest.unity
     guid: 1da03acc1cf6f3c489a6131d22be0aa2
+  - enabled: 1
+    path: Assets/Final Levels/LevelOne.unity
+    guid: c51a32eff68583f46811a8d2f34281ac
+  - enabled: 1
+    path: Assets/Final Levels/LevelThree.unity
+    guid: 43f8d4cba31446b459a5ce953c365309
+  - enabled: 1
+    path: Assets/Final Levels/LevelTwo.unity
+    guid: 10ed58272dbedfb40bd08a0e6934036f
   m_configObjects: {}

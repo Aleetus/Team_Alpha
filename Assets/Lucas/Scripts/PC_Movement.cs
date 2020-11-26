@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 public class PC_Movement : MonoBehaviour
 {
     public float f_speed;
-    public string loadScene;
+    public string sandScene;
+    public string iceScene;
+    public string lavaScene;
     bool canLoadScene = false;
 
     // Update is called once per frame
@@ -53,14 +55,42 @@ public class PC_Movement : MonoBehaviour
     {
         Debug.Log("Trigger!");
 
-        if (collider.tag == "Planet")
+        if (collider.tag == "SandPlanet")
         {
             Debug.Log("Planet!!");
 
             if (canLoadScene == true)
             {
                 canLoadScene = false;
-                SceneManager.LoadScene(loadScene);
+                SceneManager.LoadScene(sandScene);
+            }
+
+        }
+
+        Debug.Log("Trigger!");
+
+        if (collider.tag == "IcePlanet")
+        {
+            Debug.Log("Planet!!");
+
+            if (canLoadScene == true)
+            {
+                canLoadScene = false;
+                SceneManager.LoadScene(iceScene);
+            }
+
+        }
+
+        Debug.Log("Trigger!");
+
+        if (collider.tag == "LavaPlanet")
+        {
+            Debug.Log("Planet!!");
+
+            if (canLoadScene == true)
+            {
+                canLoadScene = false;
+                SceneManager.LoadScene(lavaScene);
             }
 
         }
