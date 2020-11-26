@@ -1615,8 +1615,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203052460}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -512.3435, y: -14.26799, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -509.734, y: -11.918, z: 0}
+  m_LocalScale: {x: 5.7997603, y: 5.6261783, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -2851,6 +2851,7 @@ Transform:
   - {fileID: 579201400}
   - {fileID: 436760869}
   - {fileID: 1067420463}
+  - {fileID: 824765836}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3017,6 +3018,88 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7850736830460111218, guid: 64b1f7f12d3695f44b155d5465499b90, type: 3}
   m_PrefabInstance: {fileID: 116477971}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &824765835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 824765836}
+  - component: {fileID: 824765837}
+  m_Layer: 0
+  m_Name: Spike_Strip (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &824765836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824765835}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0021117756, w: 0.9999978}
+  m_LocalPosition: {x: 51.72, y: -0.31, z: 0}
+  m_LocalScale: {x: 59.596363, y: 29.927052, z: 1}
+  m_Children: []
+  m_Father: {fileID: 738542841}
+  m_RootOrder: 86
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.242}
+--- !u!212 &824765837
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824765835}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 29bea503c64bbf648bf2107bf187c533, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1001 &842481874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5435,11 +5518,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3844602661634134338, guid: dd55ebdcf722d0c49ae15b298ddc2f50, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 59.07
+      value: 59.41
       objectReference: {fileID: 0}
     - target: {fileID: 3844602661634134338, guid: dd55ebdcf722d0c49ae15b298ddc2f50, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.11
+      value: -3.08
       objectReference: {fileID: 0}
     - target: {fileID: 3844602661634134338, guid: dd55ebdcf722d0c49ae15b298ddc2f50, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7784,11 +7867,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3506468065937172744, guid: 6144385ce375d3b44a115de371058b85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 226
+      value: -12.1
       objectReference: {fileID: 0}
     - target: {fileID: 3506468065937172744, guid: 6144385ce375d3b44a115de371058b85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 25.87
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 3506468065937172744, guid: 6144385ce375d3b44a115de371058b85, type: 3}
       propertyPath: m_LocalPosition.z
