@@ -6,9 +6,14 @@ TagManager:
   tags:
   - Enemy
   - Death
+<<<<<<< Updated upstream
   - IcePlanet
   - LavaPlanet
   - SandPlanet
+=======
+  - Planet
+  - Health
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX

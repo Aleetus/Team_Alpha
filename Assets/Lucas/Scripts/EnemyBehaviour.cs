@@ -7,7 +7,7 @@ public class EnemyBehaviour : MonoBehaviour
     public float hitPoints;
     public float maxHitPoints = 5;
 
-    public static float Damage = 10;
+    public static float Damage = 10f;
 
 
     // Start is called before the first frame update

@@ -6,21 +6,24 @@ using UnityEngine.UI;
 public class PlayerLife : MonoBehaviour
 {
     [SerializeField] Transform spawnPoint;
+    public Vector2 respawnPosition;
 
     public Slider healthSlider;
     public float maxHealth;
-    public static float currentHealth;
+    public float currentHealth;
 
     public Image[] lives;
     public int livesRemaining;
 
-    public float damage;
+   // public float damage;
     public GameObject GameOver_Canvas;
 
 
     void Start()
     {
         GameOver_Canvas.SetActive(false);
+
+        respawnPosition = transform.position;
 
         currentHealth = maxHealth; // The players health is set to the max health at the start.
     }
@@ -29,19 +32,36 @@ public class PlayerLife : MonoBehaviour
     {
         healthSlider.value = currentHealth; // Here we set the player health on the UI.
 
-        if (currentHealth <= 0) // If the player health is 0 they die.
+        if (currentHealth <= 0) // If the player health is 0 they lose a life.
         {
             LoseLife();
+            transform.position = respawnPosition;
             currentHealth = maxHealth;
-            //gameObject.transform.position = spawnPoint.transform;
+
         }
     }
+
+  
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.gameObject.tag.Equals("Health"))
+        {
+            if (currentHealth < maxHealth)
+            {
+                Debug.Log("health Picked up");
+                currentHealth += HealthPickup.healthBoost;
+            }
+        }
+    }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag.Equals("Enemy"))
         {
             currentHealth -= EnemyBehaviour.Damage;
+
         }
         if (collision.gameObject.tag.Equals("Death"))
         {

@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 5000000}
   - component: {fileID: 11400002}
   - component: {fileID: 11400000}
+  - component: {fileID: 1160552243831467617}
   m_Layer: 0
   m_Name: CharacterRobotBoy
   m_TagString: Player
@@ -233,6 +234,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3d7b34a3bb2d4e4b926e7e729d3d410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1160552243831467617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ca5c9daf820bdb4fbe2775eee17934d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 0}
+  respawnPosition: {x: 0, y: 0}
+  healthSlider: {fileID: 0}
+  maxHealth: 100
+  currentHealth: 0
+  lives:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  livesRemaining: 4
+  GameOver_Canvas: {fileID: 0}
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0
