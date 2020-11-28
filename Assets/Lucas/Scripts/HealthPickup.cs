@@ -21,6 +21,6 @@ public class HealthPickup : MonoBehaviour
     void RespawnHealthBoost()
     {
         gameObject.SetActive(true);
-        Debug.Log("Heaalth Boost Respawn!!!");
+        Debug.Log("Health Boost Respawn!!!");
     }
 }
