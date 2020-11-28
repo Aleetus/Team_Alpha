@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class HealthPickup : MonoBehaviour
 {
-    PlayerLife playerHealth;
 
     public static float healthBoost = 20f;
 
@@ -12,8 +11,16 @@ public class HealthPickup : MonoBehaviour
     {
         if (collider.gameObject.tag.Equals("Player"))
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
 
+            Invoke("RespawnHealthBoost", 10);
+            //Destroy(gameObject);
         }
+    }
+
+    void RespawnHealthBoost()
+    {
+        gameObject.SetActive(true);
+        Debug.Log("Heaalth Boost Respawn!!!");
     }
 }

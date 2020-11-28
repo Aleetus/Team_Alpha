@@ -10,7 +10,7 @@ public class PlayerLife : MonoBehaviour
 
     public Slider healthSlider;
     public float maxHealth;
-    public float currentHealth;
+    public static float currentHealth;
 
     public Image[] lives;
     public int livesRemaining;
@@ -47,6 +47,10 @@ public class PlayerLife : MonoBehaviour
     {
         if (collider.gameObject.tag.Equals("Health"))
         {
+            if (currentHealth == maxHealth)
+            {
+                return;
+            }
             if (currentHealth < maxHealth)
             {
                 Debug.Log("health Picked up");
