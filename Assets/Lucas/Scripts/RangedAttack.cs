@@ -13,13 +13,11 @@ public class RangedAttack : MonoBehaviour
 
     private Transform tx_gun_pivot;
 
-    // Use this for initialization
     void Start()
     {
         tx_gun_pivot = transform.Find("PivotPoint").transform;
     }//----
 
-    // Update is called once per frame
     void Update()
     {
         RotateWeapon();
