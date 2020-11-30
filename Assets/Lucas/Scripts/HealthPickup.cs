@@ -14,7 +14,6 @@ public class HealthPickup : MonoBehaviour
             gameObject.SetActive(false);
 
             Invoke("RespawnHealthBoost", 10);
-            //Destroy(gameObject);
         }
     }
 

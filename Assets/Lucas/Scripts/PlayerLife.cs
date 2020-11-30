@@ -57,23 +57,36 @@ public class PlayerLife : MonoBehaviour
                 currentHealth += HealthPickup.healthBoost;
             }
         }
-    }
-
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag.Equals("Enemy"))
+        if (collider.gameObject.tag.Equals("Enemy"))
         {
             currentHealth -= EnemyBehaviour.Damage;
-
         }
-        if (collision.gameObject.tag.Equals("Death"))
+        if (collider.gameObject.tag.Equals("Hazard"))
         {
-            GameOver_Canvas.SetActive(true);
-            gameObject.SetActive(false);
-            Debug.Log("hit death");
+            currentHealth -= HazardDamage.Damage;
+        }
+        if (collider.gameObject.tag.Equals("Death"))
+        {
+            currentHealth -= DeathTouch.Damage;
         }
     }
+
+
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if (collision.gameObject.tag.Equals("Enemy"))
+    //    {
+    //        currentHealth -= EnemyBehaviour.Damage;
+    //
+    //    }
+    //    if (collision.gameObject.tag.Equals("Death"))
+    //    {
+    //        currentHealth -= DeathTouch.Damage;
+    //        //GameOver_Canvas.SetActive(true);
+    //        //gameObject.SetActive(false);
+    //        Debug.Log("hit death");
+    //    }
+    //}
 
     public void LoseLife()
     {

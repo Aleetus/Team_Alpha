@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class DeathTouch : MonoBehaviour
 {
-    //public float Damage = 10000000;
+
+    public static float Damage = 100f;
 
     //private void OnCollisionEnter2D(Collision2D collision)
     //{

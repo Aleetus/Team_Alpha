@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class RangedAttack : MonoBehaviour
 {
-    //---------------------------------------------------------------------------------------
     // Attack Properties
     public GameObject go_projectile;
 
@@ -16,14 +15,14 @@ public class RangedAttack : MonoBehaviour
     void Start()
     {
         tx_gun_pivot = transform.Find("PivotPoint").transform;
-    }//----
+    }
 
     void Update()
     {
         RotateWeapon();
         Attack();
-    }//-----
-    //===========================================================================================================================s
+    }
+
     public RangedAttack(GameObject go_projectile, float fl_cool_down, float fl_next_shot_time, Transform tx_gun_pivot)
     {
         this.go_projectile = go_projectile;
@@ -31,7 +30,7 @@ public class RangedAttack : MonoBehaviour
         this.fl_next_shot_time = fl_next_shot_time;
         this.tx_gun_pivot = tx_gun_pivot;
     }
-    //============================================================================================================================
+ 
     void RotateWeapon()
     {
         // This uses the trigonometric function Tan to calcucualte the angle to rotate to look at the PC
@@ -42,9 +41,8 @@ public class RangedAttack : MonoBehaviour
         tx_gun_pivot.rotation = Quaternion.AngleAxis(_fl_angle, Vector3.forward);
 
 
-    }//-----
+    }
 
-    //---------------------------------------------------------------------------------------
     // Custom function for attack
     void Attack()
     {
@@ -57,5 +55,5 @@ public class RangedAttack : MonoBehaviour
             // Reset cooldown time
             fl_next_shot_time = Time.time + fl_cool_down;
         }
-    } // -----
+    } 
 }
