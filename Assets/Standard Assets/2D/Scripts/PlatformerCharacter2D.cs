@@ -20,6 +20,8 @@ namespace UnityStandardAssets._2D
         private Rigidbody2D m_Rigidbody2D;
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 
+        public GameObject Player;
+
         private void Awake()
         {
             // Setting up references.
@@ -109,6 +111,23 @@ namespace UnityStandardAssets._2D
             Vector3 theScale = transform.localScale;
             theScale.x *= -1;
             transform.localScale = theScale;
+        }
+
+        public void OnCollisionEnter2D(Collision2D other)
+        {
+            if (other.gameObject.CompareTag("Platform"))
+            {
+                Player.transform.parent = other.gameObject.transform;
+            }
+        }
+
+
+        private void OnCollisionExit2D(Collision2D other)
+        {
+            if (other.gameObject.CompareTag("Platform"))
+            {
+                Player.transform.parent = null;
+            }
         }
     }
 }

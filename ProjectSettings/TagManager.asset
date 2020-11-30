@@ -8,6 +8,7 @@ TagManager:
   - Death
   - Health
   - Hazard
+  - Platform
   layers:
   - Default
   - TransparentFX
