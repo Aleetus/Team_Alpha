@@ -3156,7 +3156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UIObject: {fileID: 1641348259}
-  Trigger: {fileID: 594853620}
+  Trigger: {fileID: 0}
 --- !u!61 &594853622
 BoxCollider2D:
   m_ObjectHideFlags: 0
