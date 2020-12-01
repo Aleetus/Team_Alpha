@@ -22,6 +22,8 @@ namespace UnityStandardAssets._2D
 
         public GameObject Player;
 
+        public AudioSource jumpSound;
+
         private void Awake()
         {
             // Setting up references.
@@ -95,6 +97,7 @@ namespace UnityStandardAssets._2D
             if (m_Grounded && jump && m_Anim.GetBool("Ground"))
             {
                 // Add a vertical force to the player.
+                jumpSound.Play();
                 m_Grounded = false;
                 m_Anim.SetBool("Ground", false);
                 m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));

@@ -12,6 +12,8 @@ public class RangedAttack : MonoBehaviour
 
     private Transform tx_gun_pivot;
 
+    public AudioSource shootSound;
+
     void Start()
     {
         tx_gun_pivot = transform.Find("PivotPoint").transform;
@@ -50,6 +52,7 @@ public class RangedAttack : MonoBehaviour
         if (Input.GetButtonDown("Fire1") && Time.time > fl_next_shot_time)
         {
             // Create a bullet 1 at unit in front of the PC
+            shootSound.Play();
             Instantiate(go_projectile, tx_gun_pivot.position + tx_gun_pivot.TransformDirection(Vector2.right), tx_gun_pivot.transform.rotation);
 
             // Reset cooldown time
