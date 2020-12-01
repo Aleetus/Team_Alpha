@@ -4932,7 +4932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   go_projectile: {fileID: 3883455505178453894, guid: ed2cfeffc1a1ec04098ba396b76506d5, type: 3}
-  fl_cool_down: 3
+  fl_cool_down: 1
   shootSound: {fileID: 815057088}
 --- !u!1001 &1198477015
 PrefabInstance:
