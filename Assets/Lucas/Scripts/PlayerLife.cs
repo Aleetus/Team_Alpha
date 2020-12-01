@@ -15,6 +15,11 @@ public class PlayerLife : MonoBehaviour
     public Image[] lives;
     public int livesRemaining;
 
+    //audio
+    public AudioSource gameOverSound;
+    public AudioSource loseLifeSound;
+
+
    // public float damage;
     public GameObject GameOver_Canvas;
 
@@ -34,10 +39,10 @@ public class PlayerLife : MonoBehaviour
 
         if (currentHealth <= 0) // If the player health is 0 they lose a life.
         {
+            loseLifeSound.Play();
             LoseLife();
             transform.position = respawnPosition;
             currentHealth = maxHealth;
-
         }
     }
 
@@ -100,6 +105,7 @@ public class PlayerLife : MonoBehaviour
         {
             GameOver_Canvas.SetActive(true);
             gameObject.SetActive(false);
+            gameOverSound.Play();
 
         }
 
