@@ -2756,7 +2756,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c559c0dec574c4a468c4e8450a556f01, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.758
+  m_Volume: 0.13
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3839,7 +3839,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 94d3da818f5c0db4ca41e6e5ae748275, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.108
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6390,7 +6390,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 182784bc0d4e83d48bf6ff89a6e5971e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 88f16c4ad85a045468ee988c91160c28, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -7688,7 +7688,7 @@ GameObject:
   - component: {fileID: 1876305492}
   - component: {fileID: 1876305493}
   m_Layer: 0
-  m_Name: Jump_03
+  m_Name: Jump(NEW)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7718,7 +7718,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e56594f38c6f3b54eb3786c1d32a4836, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a678e00a333ab564f8d88a9cb8dd4fce, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -7726,7 +7726,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 144
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
