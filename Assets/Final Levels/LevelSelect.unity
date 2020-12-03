@@ -7134,7 +7134,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152571, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 23.04
+      value: 23.12
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152571, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7174,15 +7174,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152571, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152571, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152571, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152572, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: loadScene
