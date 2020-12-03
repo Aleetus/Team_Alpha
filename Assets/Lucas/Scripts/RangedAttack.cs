@@ -16,7 +16,7 @@ public class RangedAttack : MonoBehaviour
 
     void Start()
     {
-        tx_gun_pivot = transform.Find("PivotPoint").transform;
+        tx_gun_pivot = transform.Find("Gun_Pivot").transform;
     }
 
     void Update()
