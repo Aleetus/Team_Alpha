@@ -8,8 +8,9 @@ public class Projectile : MonoBehaviour
     // Variables - public values can be modified in the inspector on instances of objects
     public float fl_speed = 5;
     public float fl_range = 10;
-    public bool bl_destroy_on_hit = true;
     private Rigidbody2D rb_projectile;
+
+    public static float p_Damage = 25f;
 
     //---------------------------------------------------------------------------------------
     // Use this for initialization - Commands here are only called once when objects appear in the game
@@ -25,10 +26,12 @@ public class Projectile : MonoBehaviour
         Destroy(gameObject, fl_range / Mathf.Abs(fl_speed));
     }//-----    
 
-    //---------------------------------------------------------------------------------------
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Destroy bullet if it hits something (if set)
-        if (bl_destroy_on_hit) Destroy(gameObject);
-    }//------
+        if (collision.gameObject.tag.Equals("Enemy"))
+        {
+            Destroy(gameObject);
+        }
+    }
+
 }

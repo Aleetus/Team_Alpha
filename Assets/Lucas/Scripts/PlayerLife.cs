@@ -5,8 +5,10 @@ using UnityEngine.UI;
 
 public class PlayerLife : MonoBehaviour
 {
-    [SerializeField] Transform spawnPoint;
     public Vector2 respawnPosition;
+
+    //[SerializeField] Transform projectileSpawnPos;
+    //[SerializeField] GameObject projectile;
 
     public Slider healthSlider;
     public float maxHealth;
@@ -19,8 +21,6 @@ public class PlayerLife : MonoBehaviour
     public AudioSource gameOverSound;
     public AudioSource loseLifeSound;
 
-
-   // public float damage;
     public GameObject GameOver_Canvas;
 
 
@@ -44,9 +44,17 @@ public class PlayerLife : MonoBehaviour
             transform.position = respawnPosition;
             currentHealth = maxHealth;
         }
-    }
 
-  
+        //if (Input.GetKey(KeyCode.Mouse0))
+        //{
+            //GameObject p = Instantiate(projectile);
+            //p.GetComponent<Rigidbody2D>().velocity = new Vector2(3, 0);
+
+       // }
+
+
+
+    }
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
@@ -62,10 +70,7 @@ public class PlayerLife : MonoBehaviour
                 currentHealth += HealthPickup.healthBoost;
             }
         }
-        if (collider.gameObject.tag.Equals("Enemy"))
-        {
-            currentHealth -= EnemyBehaviour.Damage;
-        }
+
         if (collider.gameObject.tag.Equals("Hazard"))
         {
             currentHealth -= HazardDamage.Damage;
@@ -75,23 +80,13 @@ public class PlayerLife : MonoBehaviour
             currentHealth -= DeathTouch.Damage;
         }
     }
-
-
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.tag.Equals("Enemy"))
-    //    {
-    //        currentHealth -= EnemyBehaviour.Damage;
-    //
-    //    }
-    //    if (collision.gameObject.tag.Equals("Death"))
-    //    {
-    //        currentHealth -= DeathTouch.Damage;
-    //        //GameOver_Canvas.SetActive(true);
-    //        //gameObject.SetActive(false);
-    //        Debug.Log("hit death");
-    //    }
-    //}
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag.Equals("Enemy"))
+        {
+            currentHealth -= EnemyBehaviour.Damage;
+        }
+    }
 
     public void LoseLife()
     {

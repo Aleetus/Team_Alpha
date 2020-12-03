@@ -5,7 +5,8 @@ using UnityEngine;
 public class EnemyBehaviour : MonoBehaviour
 {
     public float hitPoints;
-    public float maxHitPoints = 5;
+
+    [SerializeField] private float maxHitPoints = 100;
 
     public static float Damage = 10f;
 
@@ -16,12 +17,23 @@ public class EnemyBehaviour : MonoBehaviour
         hitPoints = maxHitPoints;
     }
 
-    void TakeHit(float damage)
+    void Update()
     {
-        hitPoints -= damage;
         if (hitPoints <= 0)
         {
             Destroy(gameObject);
+            Debug.Log("Enemy Dead");
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag.Equals("Projectile"))
+        {
+            Debug.Log("Enemy Damaged");
+            hitPoints -= Projectile.p_Damage;
+            //Debug.Log("Enemy damaged");
+            
         }
     }
 

@@ -9,6 +9,7 @@ TagManager:
   - Health
   - Hazard
   - Platform
+  - Projectile
   layers:
   - Default
   - TransparentFX
