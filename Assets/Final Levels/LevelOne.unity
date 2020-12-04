@@ -140,11 +140,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5568256585179094521, guid: 2a4a2a970620a94479921ddb92b0c762, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -340.41
+      value: -339.01
       objectReference: {fileID: 0}
     - target: {fileID: 5568256585179094521, guid: 2a4a2a970620a94479921ddb92b0c762, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.01
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 5568256585179094521, guid: 2a4a2a970620a94479921ddb92b0c762, type: 3}
       propertyPath: m_LocalPosition.z
@@ -184,11 +184,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5568256585179094521, guid: 2a4a2a970620a94479921ddb92b0c762, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.5375004
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5568256585179094521, guid: 2a4a2a970620a94479921ddb92b0c762, type: 3}
       propertyPath: m_LocalScale.y
-      value: 9.9396
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5568256585179094520, guid: 2a4a2a970620a94479921ddb92b0c762, type: 3}
@@ -1076,11 +1076,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d1c5d5b4a1ff654ab757fa991939e8e, type: 3}
---- !u!1 &104868320 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6439946421335096805, guid: 3d1c5d5b4a1ff654ab757fa991939e8e, type: 3}
-  m_PrefabInstance: {fileID: 104868319}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &104868321 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6439946420756405833, guid: 3d1c5d5b4a1ff654ab757fa991939e8e, type: 3}
@@ -1623,7 +1618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4020015031657586786, guid: 9d4aa3623b4c5174b9eeb05ee3f2af35, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -45.5
+      value: -39.3
       objectReference: {fileID: 0}
     - target: {fileID: 4020015031657586786, guid: 9d4aa3623b4c5174b9eeb05ee3f2af35, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3826,7 +3821,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 600890418960584058, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.19
+      value: -5.09
       objectReference: {fileID: 0}
     - target: {fileID: 600890418960584058, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3866,15 +3861,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 600890418960584058, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.5375004
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 600890418960584058, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalScale.y
-      value: 9.9396
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 600890418960584059, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_Name
       value: Moving_Desert_Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 600890420124541065, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 600890420267881053, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.79
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
@@ -5662,7 +5665,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869703240880724374, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -19.3
+      value: -20.82
       objectReference: {fileID: 0}
     - target: {fileID: 8869703240880724374, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5702,15 +5705,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869703240880724374, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.2904687
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8869703240880724374, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalScale.y
-      value: 9.534603
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8869703240880724375, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_Name
       value: Moving&Shooting_Desert_Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703241072959477, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703242009217009, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.29
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
@@ -6290,7 +6301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4020015031657586786, guid: 9d4aa3623b4c5174b9eeb05ee3f2af35, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -32.3
+      value: -38.5
       objectReference: {fileID: 0}
     - target: {fileID: 4020015031657586786, guid: 9d4aa3623b4c5174b9eeb05ee3f2af35, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6474,7 +6485,7 @@ PrefabInstance:
     - target: {fileID: 3912079892932457190, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
       propertyPath: GameOver_Canvas
       value: 
-      objectReference: {fileID: 104868320}
+      objectReference: {fileID: 1435052995}
     - target: {fileID: 3912079892932457190, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
       propertyPath: healthSlider
       value: 
@@ -6505,6 +6516,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2761097940070204933, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
   m_PrefabInstance: {fileID: 1419218488}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1435052995 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6439946420594316039, guid: 3d1c5d5b4a1ff654ab757fa991939e8e, type: 3}
+  m_PrefabInstance: {fileID: 104868319}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1437832097
 GameObject:
