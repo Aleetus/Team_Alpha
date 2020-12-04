@@ -134,13 +134,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desert_Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 5568256585179094520, guid: 2a4a2a970620a94479921ddb92b0c762, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5568256585179094521, guid: 2a4a2a970620a94479921ddb92b0c762, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -339.63
+      value: -340.41
       objectReference: {fileID: 0}
     - target: {fileID: 5568256585179094521, guid: 2a4a2a970620a94479921ddb92b0c762, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.08
+      value: 2.01
       objectReference: {fileID: 0}
     - target: {fileID: 5568256585179094521, guid: 2a4a2a970620a94479921ddb92b0c762, type: 3}
       propertyPath: m_LocalPosition.z
@@ -179,12 +183,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5568256585179094521, guid: 2a4a2a970620a94479921ddb92b0c762, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 18.07862
+      propertyPath: m_LocalScale.x
+      value: 4.5375004
       objectReference: {fileID: 0}
     - target: {fileID: 5568256585179094521, guid: 2a4a2a970620a94479921ddb92b0c762, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 8.4975
+      propertyPath: m_LocalScale.y
+      value: 9.9396
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5568256585179094520, guid: 2a4a2a970620a94479921ddb92b0c762, type: 3}
