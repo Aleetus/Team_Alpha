@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyBehaviour : MonoBehaviour
 {
-    public float hitPoints;
+    public float hitPoints, respawnTimer;
 
     [SerializeField] private float maxHitPoints = 100;
 
@@ -21,9 +21,17 @@ public class EnemyBehaviour : MonoBehaviour
     {
         if (hitPoints <= 0)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
             Debug.Log("Enemy Dead");
+            Invoke("RespawnEnemy", respawnTimer);
         }
+    }
+
+    void RespawnEnemy()
+    {
+        hitPoints = maxHitPoints;
+        gameObject.SetActive(true);
+        Debug.Log("Enemy Respawn!!!");
     }
 
     void OnCollisionEnter2D(Collision2D collision)

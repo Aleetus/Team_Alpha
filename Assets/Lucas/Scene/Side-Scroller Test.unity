@@ -2623,6 +2623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shooting_Desert_Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 4675000358513721642, guid: 478d149f33c2bfb4496d905f804c4504, type: 3}
+      propertyPath: respawnTimer
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 478d149f33c2bfb4496d905f804c4504, type: 3}
 --- !u!1001 &4178326607051880898
@@ -3302,6 +3306,10 @@ PrefabInstance:
     - target: {fileID: 1278650353318119619, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703240852649854, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: respawnTimer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8869703240880724374, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x

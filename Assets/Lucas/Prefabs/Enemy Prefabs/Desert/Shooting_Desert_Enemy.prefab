@@ -155,6 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoints: 0
+  respawnTimer: 20
   maxHitPoints: 100
 --- !u!114 &1503259057669317176
 MonoBehaviour:
