@@ -5,7 +5,7 @@ using UnityEngine;
 public class HazardDamage : MonoBehaviour
 {
 
-    public static float Damage = 10f;
+    public static float Damage = 1f;
     // Start is called before the first frame update
     void Start()
     {
