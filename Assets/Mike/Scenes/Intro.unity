@@ -842,7 +842,7 @@ TextMesh:
     galaxy just around the corner...\n\n\nSoon after your civilisation ventured into
     space,\n weird things started to happen. Reports of strange\ncreatures on nearby
     planets began to circulate.\n\nExpanding out into the galaxy became too risky
-    for\nthe government and progression into this new frontier\nwas oficially halted
+    for\nthe government and progression into this new frontier\nwas officially halted
     until investigations were completed.\nSo far none of the investigators have returned.\n\nOne
     year on, the planets' surrounding area has become\na tourist attraction for its
     residents and no further progress\nhas been made to explore local worlds out
@@ -1525,7 +1525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7908bf358b5c63e41880eaf73c8a3781, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 75
+  delay: 70
   loadLevel: LevelSelect
 --- !u!4 &2098960417
 Transform:
