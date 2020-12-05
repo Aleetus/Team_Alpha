@@ -496,7 +496,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '"Getting this close to a gas giant... ARE YOU MAD!? "'
+  m_Text: '"My sensors max out at 9000 Kelvins. This gas giant is over 9000! HOT
+    HOT HOT!"'
 --- !u!222 &95457270
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1827,7 +1828,7 @@ GameObject:
   - component: {fileID: 466808453}
   m_Layer: 0
   m_Name: SandPlanet
-  m_TagString: SandPlanet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1907,7 +1908,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466808449}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.64, y: -16.131956, z: 208.54385}
+  m_LocalPosition: {x: -1.64, y: -9.18, z: 208.54385}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
   m_Father: {fileID: 1084886699}
@@ -2638,7 +2639,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 634356957}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.259682, y: 2.28, z: 208.54385}
+  m_LocalPosition: {x: 23.199999, y: -7.159998, z: 208.54385}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 1084886699}
@@ -2937,7 +2938,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666449275}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.71, y: -8.86, z: 208.54385}
+  m_LocalPosition: {x: -12.29, y: -14.86, z: 208.54385}
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children: []
   m_Father: {fileID: 1084886699}
@@ -3013,8 +3014,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '"You''d have to be some kind of MORON to take a child to a planet made
-    of lava! Maybe try the yellow one first?"'
+  m_Text: '"I think you should cool off now. Next stop... Ara!"'
 --- !u!222 &692546631
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3503,7 +3503,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: PLANET COMPLETE
 --- !u!222 &808860577
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3661,8 +3661,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '"Why are you flying into an asteroid field without any shields!? Luckily
-    a clipping wall is protecting us from destruction!"'
+  m_Text: '"I''ve got a feeling we might get some kind of shield upgrade when we
+    play another level..."'
 --- !u!222 &832177067
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4352,7 +4352,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '"This place is dryer than Ghandi''s flip flops. Let''s check it out!"'
+  m_Text: '"If we had fuel you would''ve wasted so much just coming to check this
+    place out again pointlessly!"'
 --- !u!222 &1094287536
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4757,7 +4758,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: PRESS SPACE TO LAND
 --- !u!222 &1202187849
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5424,8 +5425,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '"Scans suggest a ship has entered the atmosphere of a nearby planet. You
-    should start with Planet Jacynta. The one with the moon."'
+  m_Text: '"Scans suggest ships have landed on each of the three hospitable planets
+    nearby. You should start with Planet Jacynta. The one with the moon."'
 --- !u!222 &1352949163
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5591,7 +5592,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1376022991}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.359688, y: -27.671957, z: 215.01352}
+  m_LocalPosition: {x: 13.19, y: -27.83, z: 215.01352}
   m_LocalScale: {x: 30, y: 30, z: 30}
   m_Children: []
   m_Father: {fileID: 1084886699}
@@ -5982,7 +5983,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8286371471704183603, guid: 69eb55415c4400c428b34bff02c36420, type: 3}
       propertyPath: m_Text
-      value: '|| Planet: Jacynta (Undiscovered) || M Class Sandy Planet ||'
+      value: '|| Planet: Jacynta (Discovered) || M Class Sandy Planet ||'
       objectReference: {fileID: 0}
     - target: {fileID: 8286371471704183603, guid: 69eb55415c4400c428b34bff02c36420, type: 3}
       propertyPath: m_Color.r
@@ -6050,7 +6051,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8286371471951304121, guid: 69eb55415c4400c428b34bff02c36420, type: 3}
       propertyPath: m_Text
-      value: '|| Planet: Ryn (Undiscovered) || M Class Volcanic Planet ||'
+      value: '|| Planet: Ryn (Discovered) || M Class Volcanic Planet ||'
       objectReference: {fileID: 0}
     - target: {fileID: 8286371471951304121, guid: 69eb55415c4400c428b34bff02c36420, type: 3}
       propertyPath: m_Color.r
@@ -6640,7 +6641,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1599627393}
   m_LocalRotation: {x: -0, y: -0, z: -0.63112044, w: 0.77568495}
-  m_LocalPosition: {x: 37.359684, y: 7.7680435, z: 208.54385}
+  m_LocalPosition: {x: 39.78, y: 8.43, z: 208.54385}
   m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 1084886699}
@@ -7419,7 +7420,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '|| Movement: W/A/S/D || Aim: Mouse ||'
+  m_Text: CANNOT LAND
 --- !u!222 &1778782931
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7626,7 +7627,7 @@ GameObject:
   - component: {fileID: 1859298998}
   m_Layer: 0
   m_Name: IcePlanet
-  m_TagString: Untagged
+  m_TagString: IcePlanet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7706,7 +7707,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859298994}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 46.26, y: -10.34, z: 208.54385}
+  m_LocalPosition: {x: 51.88, y: -6.69, z: 208.54385}
   m_LocalScale: {x: 9, y: 9, z: 9}
   m_Children: []
   m_Father: {fileID: 1084886699}
@@ -8193,8 +8194,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '"Bit of a cold place to take a baby... Maybe try somewhere more temperate
-    first?"'
+  m_Text: '"I''d wrap up if I were you. Actually, if I were you I''d just go home
+    and produce another baby."'
 --- !u!222 &1993971749
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8348,7 +8349,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '"I must search nearby worlds for clues..."'
+  m_Text: '"I am not giving up on my baby that easily!"'
 --- !u!222 &2005180413
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8509,7 +8510,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PRESS SPACE TO LAND
+  m_Text: PLANET COMPLETE
 --- !u!222 &2008590201
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8881,7 +8882,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -1.942, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -244.4, y: 1.3}
+  m_AnchoredPosition: {x: -227.9, y: 1.3}
   m_SizeDelta: {x: 91.99271, y: 81.36771}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2057122031
@@ -9074,7 +9075,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '"Just a baron moon. Scans suggest it''s existence is pointless."'
+  m_Text: '"I guarantee you''re the only person to have visited this moon more than
+    once..."'
 --- !u!222 &2093702464
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9183,11 +9185,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152571, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -53.35
+      value: -48.74
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152571, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 23.93
+      value: 40.31
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152571, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9203,11 +9205,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152571, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.99952507
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152571, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.030816477
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152571, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_RootOrder
@@ -9223,7 +9225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152571, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -176.468
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152571, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_LocalScale.x
