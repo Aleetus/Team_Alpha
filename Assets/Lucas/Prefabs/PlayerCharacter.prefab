@@ -681,7 +681,7 @@ MonoBehaviour:
   livesRemaining: 4
   gameOverSound: {fileID: 5180483483371810358}
   loseLifeSound: {fileID: 768964120064806724}
-  GameOver_Canvas: {fileID: 0}
+  GameOver_Canvas: {fileID: 7674594974772088193, guid: a414d7cd0ecdb1e408f92042f475589c, type: 3}
 --- !u!114 &4489947348645738216
 MonoBehaviour:
   m_ObjectHideFlags: 0

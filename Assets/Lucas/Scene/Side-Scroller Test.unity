@@ -1864,6 +1864,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_Desert_Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 600890419829742789, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.36
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
 --- !u!4 &600890419802451888 stripped
@@ -3309,7 +3313,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869703240852649854, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: respawnTimer
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8869703240880724374, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
