@@ -39,10 +39,11 @@ public class PlayerLife : MonoBehaviour
 
         if (currentHealth <= 0)                              // If the player health is 0 they lose a life.
         {
+            loseLifeSound.Play();
             LoseLife();                                      // Runs the Lose Life Function.
             transform.position = respawnPosition;            // Sets the player position to the start point.
             currentHealth = maxHealth;                       // Sets the player health bar back to full.
-            loseLifeSound.Play();
+
         }
 
 
@@ -92,9 +93,10 @@ public class PlayerLife : MonoBehaviour
 
         if (livesRemaining == 0)                             // When the livesReamining reaches 0:
         {
+            gameOverSound.Play();                            // Sound plays.
             GameOver_Canvas.SetActive(true);                 // Game Over Canvas is set to visible.
             gameObject.SetActive(false);                     // Player Game Object is deactivated.
-            gameOverSound.Play();                            // Sound plays.
+
 
         }
 
