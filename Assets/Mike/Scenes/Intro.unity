@@ -792,7 +792,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1050954808}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 28, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -829,7 +829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faeef1c697f793c479673e9a394932c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 20
+  scrollSpeed: 15
 --- !u!102 &1111934146
 TextMesh:
   serializedVersion: 3
@@ -839,20 +839,21 @@ TextMesh:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111934144}
   m_Text: "I WENT TO SPACE\nAND SOMEBODY TOOK MY BABY\n\n\nA short time ago, in a
-    galaxy round the corner...\n\n\nShortly after your civilisation ventured into
-    space weird things started to happen.\n\nLorem ipsum dolor sit amet, consectetur
-    adipiscing\nelit, sed do eiusmod tempor incididunt ut\n labore et dolore magna
-    aliqua. Ut enim ad \nminim veniam, quis nostrud exercitation ullamco \nlaboris
-    nisi ut aliquip ex ea commodo consequat.\n\n Duis aute irure dolor in reprehenderit
-    in voluptate velit\n esse cillum dolore eu fugiat nulla pariatur. Excepteur\n
-    sint occaecat cupidatat non proident, sunt in culpa qui officia \ndeserunt mollit
-    anim id est laborum\n\nLorem ipsum dolor sit amet, consectetur adipiscing\nelit,
-    sed do eiusmod tempor incididunt ut\n labore et dolore magna aliqua. Ut enim
-    ad \nminim veniam, quis nostrud exercitation ullamco \nlaboris nisi ut aliquip
-    ex ea commodo consequat.\n\n Duis aute irure dolor in reprehenderit in voluptate
-    velit\n esse cillum dolore eu fugiat nulla pariatur. Excepteur\n sint occaecat
-    cupidatat non proident, sunt in culpa qui officia \ndeserunt mollit anim id est
-    laborum"
+    galaxy just around the corner...\n\n\nSoon after your civilisation ventured into
+    space,\n weird things started to happen. Reports of strange\ncreatures on nearby
+    planets began to circulate.\n\nExpanding out into the galaxy became too risky
+    for\nthe government and progression into this new frontier\nwas oficially halted
+    until investigations were completed.\nSo far none of the investigators have returned.\n\nOne
+    year on, the planets' surrounding area has become\na tourist attraction for its
+    residents and no further progress\nhas been made to explore local worlds out
+    of fear.\n\nToday you decided to take your baby on a tour of the stars\nfor their
+    third birthday. Being poor you could only afford to\nhire a shuttle with an outdated
+    and rude computer AI.\n\nWhile slowly drifting around the outskirts of explored
+    space,\npeering at the beutiful expanse, an unknown ship appears.\nIn a flash
+    of light your baby disappears before your eyes!\n\nToday you went to space and
+    somebody took your baby...\n\nYou and this trusty but sarcastic computer must
+    venture\nout and do this exploring that your civilisation has been\ntoo afraid
+    of, in order to find your baby!"
   m_OffsetZ: -20
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -862,7 +863,7 @@ TextMesh:
   m_FontSize: 200
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4283087103
@@ -885,7 +886,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -914,13 +915,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111934144}
-  m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
-  m_LocalPosition: {x: -356, y: -107, z: 38}
+  m_LocalRotation: {x: 0.10452846, y: 0, z: 0, w: 0.9945219}
+  m_LocalPosition: {x: -266, y: -107, z: 38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 12, y: 0, z: 0}
 --- !u!1 &1277067175
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,7 +1525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7908bf358b5c63e41880eaf73c8a3781, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 60
+  delay: 75
   loadLevel: LevelSelect
 --- !u!4 &2098960417
 Transform:
