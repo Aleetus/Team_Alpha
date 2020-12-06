@@ -10,6 +10,10 @@ TagManager:
   - Hazard
   - Platform
   - Projectile
+  - SandPlanet
+  - LavaPlanet
+  - IcePlanet
+  - SectorBeta
   layers:
   - Default
   - TransparentFX

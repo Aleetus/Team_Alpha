@@ -9,6 +9,8 @@ public class PC_Movement : MonoBehaviour
     public string sandScene;
     public string iceScene;
     public string lavaScene;
+    public string sectorBeta;
+
     bool canLoadScene = false;
 
     // Update is called once per frame
@@ -91,6 +93,17 @@ public class PC_Movement : MonoBehaviour
             {
                 canLoadScene = false;
                 SceneManager.LoadScene(lavaScene);
+            }
+
+        }
+
+        if (collider.tag == "SectorBeta")
+        {
+
+            if (canLoadScene == true)
+            {
+                canLoadScene = false;
+                SceneManager.LoadScene(sectorBeta);
             }
 
         }

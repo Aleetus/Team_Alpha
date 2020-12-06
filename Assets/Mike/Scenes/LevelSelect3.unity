@@ -5425,8 +5425,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '"Scans suggest ships have landed on each of the three hospitable planets
-    nearby. You should start with Planet Jacynta. The one with the moon."'
+  m_Text: '"Ain''t nobody gonna help you here! Get back to it, there''s only one
+    more planet in this system!"'
 --- !u!222 &1352949163
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8882,7 +8882,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -1.942, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -227.9, y: 1.3}
+  m_AnchoredPosition: {x: -246, y: 1.3}
   m_SizeDelta: {x: 91.99271, y: 81.36771}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2057122031
