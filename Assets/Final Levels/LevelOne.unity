@@ -8048,8 +8048,8 @@ Transform:
   - {fileID: 526282628}
   - {fileID: 2000996632}
   - {fileID: 775193060}
-  - {fileID: 510138895}
   - {fileID: 991821763}
+  - {fileID: 510138895}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10374,7 +10374,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.6931592, y: 0.11571926}
+  m_Offset: {x: -0.85130674, y: 0.11571926}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -10385,7 +10385,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.3394897, y: 0.47003514}
+  m_Size: {x: 0.14745343, y: 0.47003514}
   m_EdgeRadius: 0
 --- !u!1001 &1023478628
 PrefabInstance:
@@ -10780,7 +10780,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049042041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -499.91, y: -0.15, z: 0}
+  m_LocalPosition: {x: -499.44, y: -0.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 705299043}
@@ -11244,7 +11244,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1097875989088451041, guid: 1078af1f55b08e14c87dbc87e5868504, type: 3}
       propertyPath: orthographic size
-      value: 10.424273
+      value: 11.177355
       objectReference: {fileID: 0}
     - target: {fileID: 1097875989088451041, guid: 1078af1f55b08e14c87dbc87e5868504, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
@@ -12430,7 +12430,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271002181}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 515.35, y: -9.02, z: 0}
+  m_LocalPosition: {x: 512.86, y: -9.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 351564614}
@@ -12463,7 +12463,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 23.16772, y: 4.5454025}
+  m_Offset: {x: 32.20385, y: 4.5454025}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -12474,7 +12474,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 19.489418, y: 14.797989}
+  m_Size: {x: 37.561676, y: 14.797989}
   m_EdgeRadius: 0
 --- !u!4 &1276075154 stripped
 Transform:
@@ -13054,11 +13054,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8106139953503144962, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.506994
+      value: 11.506897
       objectReference: {fileID: 0}
     - target: {fileID: 8106139953503144962, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -18.81
+      value: -18.648743
       objectReference: {fileID: 0}
     - target: {fileID: 8106139953503144962, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13074,11 +13074,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8106139953503144962, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.99999434
+      value: -0.9999998
       objectReference: {fileID: 0}
     - target: {fileID: 8106139953503144962, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.0033632414
+      value: 0.0006510924
       objectReference: {fileID: 0}
     - target: {fileID: 8106139953503144962, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_RootOrder
@@ -13094,7 +13094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8106139953503144962, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -180.385
+      value: -179.925
       objectReference: {fileID: 0}
     - target: {fileID: 8106139953503144962, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -16697,7 +16697,7 @@ Transform:
   m_GameObject: {fileID: 1842615938}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.04, y: -0.11, z: 10}
-  m_LocalScale: {x: 3.428662, y: 3.425323, z: 2.6219423}
+  m_LocalScale: {x: 3.7231839, y: 3.719558, z: 2.847167}
   m_Children: []
   m_Father: {fileID: 1399628254}
   m_RootOrder: 0
@@ -16960,11 +16960,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8106139953503144962, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.665995
+      value: 18.666077
       objectReference: {fileID: 0}
     - target: {fileID: 8106139953503144962, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -18.854
+      value: -18.63526
       objectReference: {fileID: 0}
     - target: {fileID: 8106139953503144962, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16980,11 +16980,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8106139953503144962, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.99999434
+      value: -0.9999998
       objectReference: {fileID: 0}
     - target: {fileID: 8106139953503144962, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.0033632414
+      value: 0.0006510924
       objectReference: {fileID: 0}
     - target: {fileID: 8106139953503144962, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_RootOrder
@@ -17000,7 +17000,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8106139953503144962, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -180.385
+      value: -179.925
       objectReference: {fileID: 0}
     - target: {fileID: 8106139953503144962, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_LocalScale.x
