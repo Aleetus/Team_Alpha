@@ -5,6 +5,6 @@ using UnityEngine;
 public class DeathTouch : MonoBehaviour
 {
 
-    public static float Damage = 100f;
+    public static float Damage = 200f;
 
 }
