@@ -4221,8 +4221,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 415378917}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.43, y: 2.77, z: 10}
-  m_LocalScale: {x: 2.191259, y: 1.6454766, z: 1.6454766}
+  m_LocalPosition: {x: 1.402, y: 0.96, z: 10}
+  m_LocalScale: {x: 2.4525738, y: 1.9122416, z: 1.762797}
   m_Children: []
   m_Father: {fileID: 1399628254}
   m_RootOrder: 0
@@ -7661,6 +7661,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1509713647}
     m_Modifications:
+    - target: {fileID: 490246711264645888, guid: 3cf83084fdd88684480fdee74dc8841e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8300000, guid: 51f01004e7e3442498675cc3bfc25032, type: 3}
+    - target: {fileID: 490246711264645888, guid: 3cf83084fdd88684480fdee74dc8841e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830439884563996258, guid: 3cf83084fdd88684480fdee74dc8841e, type: 3}
+      propertyPath: sceneToLoad
+      value: LevelTwo
+      objectReference: {fileID: 0}
     - target: {fileID: 7342782503552831528, guid: 3cf83084fdd88684480fdee74dc8841e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 544.63226
@@ -7709,7 +7721,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseMenuFull
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3964393697258990650, guid: 3cf83084fdd88684480fdee74dc8841e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3cf83084fdd88684480fdee74dc8841e, type: 3}
 --- !u!4 &837591643 stripped
 Transform:
