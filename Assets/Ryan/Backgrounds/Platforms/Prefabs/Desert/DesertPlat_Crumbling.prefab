@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7526698558230197352}
   - component: {fileID: 7526698558230197355}
   - component: {fileID: 1508234413}
-  - component: {fileID: 1508234414}
+  - component: {fileID: 6253248259767071335}
   m_Layer: 0
   m_Name: DesertPlat_Crumbling
   m_TagString: Untagged
@@ -159,10 +159,10 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 7.79, y: 0.1840496}
+  m_Offset: {x: -8.12, y: 0.24760723}
   serializedVersion: 2
-  m_Radius: 1.1591134
---- !u!58 &1508234414
+  m_Radius: 0.9783859
+--- !u!58 &6253248259767071335
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,6 +175,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -7.703672, y: 0.1840496}
+  m_Offset: {x: 7.9876842, y: 0.24760723}
   serializedVersion: 2
-  m_Radius: 1.1591134
+  m_Radius: 0.9783859

@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 5312511361302373942}
   - component: {fileID: 5529334658465083539}
   - component: {fileID: 4171699840847901676}
-  - component: {fileID: 3250997377070531600}
+  - component: {fileID: 1518047540943238565}
   m_Layer: 0
   m_Name: RockyPlat_Move
   m_TagString: Untagged
@@ -174,10 +174,10 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -8.450063, y: 0.535305}
+  m_Offset: {x: -8.99, y: 0.5795765}
   serializedVersion: 2
-  m_Radius: 1.3471565
---- !u!58 &3250997377070531600
+  m_Radius: 0.94870186
+--- !u!58 &1518047540943238565
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -190,9 +190,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 8.68, y: 0.535305}
+  m_Offset: {x: 9.05, y: 0.5795765}
   serializedVersion: 2
-  m_Radius: 1.3471565
+  m_Radius: 0.94870186
 --- !u!1 &7753660809686148879
 GameObject:
   m_ObjectHideFlags: 0

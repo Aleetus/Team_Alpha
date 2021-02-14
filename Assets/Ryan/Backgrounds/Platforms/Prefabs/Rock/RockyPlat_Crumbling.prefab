@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 253625774054714471}
   - component: {fileID: 3654166535367407708}
   - component: {fileID: 1637177238792442368}
-  - component: {fileID: 6017736757356597676}
+  - component: {fileID: 3813667004856493230}
   m_Layer: 0
   m_Name: RockyPlat_Crumbling
   m_TagString: Untagged
@@ -159,10 +159,10 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -6.56295, y: 0.30991364}
+  m_Offset: {x: -6.92, y: 0.42520332}
   serializedVersion: 2
-  m_Radius: 1.5442963
---- !u!58 &6017736757356597676
+  m_Radius: 1.1696033
+--- !u!58 &3813667004856493230
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,6 +175,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 6.63, y: 0.30991364}
+  m_Offset: {x: 6.95, y: 0.42520332}
   serializedVersion: 2
-  m_Radius: 1.5442963
+  m_Radius: 1.1696033

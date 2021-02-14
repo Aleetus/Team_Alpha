@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7850736830460111219}
   - component: {fileID: 7850736830460111216}
   - component: {fileID: 2539301014032435502}
-  - component: {fileID: 365038033122056989}
+  - component: {fileID: 8703005635749925800}
   m_Layer: 0
   m_Name: IcyPlat_Normal
   m_TagString: Untagged
@@ -124,10 +124,10 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -6.9881134, y: 1.5602446}
+  m_Offset: {x: -7.41, y: 1.6008726}
   serializedVersion: 2
-  m_Radius: 1.5100222
---- !u!58 &365038033122056989
+  m_Radius: 1.1443768
+--- !u!58 &8703005635749925800
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,6 +140,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 6.71, y: 1.5602446}
+  m_Offset: {x: 7.2, y: 1.6008726}
   serializedVersion: 2
-  m_Radius: 1.5100222
+  m_Radius: 1.1443768

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1153448398904176798}
   - component: {fileID: 1153448398904176799}
   - component: {fileID: 3236011810121702516}
-  - component: {fileID: 2290891383595067344}
+  - component: {fileID: 5306420599745090552}
   m_Layer: 0
   m_Name: RockyPlat_Normal
   m_TagString: Untagged
@@ -124,10 +124,10 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -8.311937, y: 0.4789586}
+  m_Offset: {x: -9.02, y: 0.5654278}
   serializedVersion: 2
-  m_Radius: 1.4852428
---- !u!58 &2290891383595067344
+  m_Radius: 0.9664364
+--- !u!58 &5306420599745090552
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,6 +140,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 8.47, y: 0.4789586}
+  m_Offset: {x: 9, y: 0.5654278}
   serializedVersion: 2
-  m_Radius: 1.4852428
+  m_Radius: 0.9664364

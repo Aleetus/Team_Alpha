@@ -1800,6 +1800,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 653052942}
     m_Modifications:
+    - target: {fileID: 1731858739, guid: 121deba4c1276c74db93def0ef60539d, type: 3}
+      propertyPath: m_Offset.x
+      value: -4.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1731858739, guid: 121deba4c1276c74db93def0ef60539d, type: 3}
+      propertyPath: m_Offset.y
+      value: 1.1518031
+      objectReference: {fileID: 0}
+    - target: {fileID: 1731858739, guid: 121deba4c1276c74db93def0ef60539d, type: 3}
+      propertyPath: m_Radius
+      value: 0.9334922
+      objectReference: {fileID: 0}
     - target: {fileID: 1745583237327612829, guid: 121deba4c1276c74db93def0ef60539d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 52.44
@@ -1848,13 +1860,35 @@ PrefabInstance:
       propertyPath: m_Name
       value: DesertPlat_Bouncy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1731858740, guid: 121deba4c1276c74db93def0ef60539d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 121deba4c1276c74db93def0ef60539d, type: 3}
 --- !u!4 &1748063828 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1745583237327612829, guid: 121deba4c1276c74db93def0ef60539d, type: 3}
   m_PrefabInstance: {fileID: 1748063827}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1748063829 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5901671516690324489, guid: 121deba4c1276c74db93def0ef60539d, type: 3}
+  m_PrefabInstance: {fileID: 1748063827}
+  m_PrefabAsset: {fileID: 0}
+--- !u!58 &1748063830
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748063829}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 3626fe8e008014f6bbd19bb72937b311, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 3.6812553, y: 1.1518031}
+  serializedVersion: 2
+  m_Radius: 0.9334922
 --- !u!4 &1758860477 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5497197693830942869, guid: 710a67ef4116b2d4890726365e845066, type: 3}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4976837803978606977}
   - component: {fileID: 6849288714424378115}
   - component: {fileID: 219355162}
-  - component: {fileID: 219355163}
+  - component: {fileID: 3388152211110395234}
   m_Layer: 0
   m_Name: DesertPlat_Move
   m_TagString: Platform
@@ -141,10 +141,10 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 7.6, y: 1.0847018}
+  m_Offset: {x: -8.32, y: 0.8762586}
   serializedVersion: 2
-  m_Radius: 1.6099107
---- !u!58 &219355163
+  m_Radius: 1.2393923
+--- !u!58 &3388152211110395234
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,9 +157,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -7.78, y: 1.0847018}
+  m_Offset: {x: 8.174229, y: 0.8762586}
   serializedVersion: 2
-  m_Radius: 1.6099107
+  m_Radius: 1.2393923
 --- !u!1 &6849288712982670915
 GameObject:
   m_ObjectHideFlags: 0

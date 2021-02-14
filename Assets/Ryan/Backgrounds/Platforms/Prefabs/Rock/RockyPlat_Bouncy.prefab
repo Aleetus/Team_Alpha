@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7990760135876743060}
   - component: {fileID: 7990760135876743061}
   - component: {fileID: 762155942661194094}
-  - component: {fileID: 8103821052744754399}
+  - component: {fileID: 2833670480929634451}
   m_Layer: 0
   m_Name: RockyPlat_Bouncy
   m_TagString: Untagged
@@ -124,10 +124,10 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -3.605362, y: 0.35217524}
+  m_Offset: {x: -4, y: 0.37019253}
   serializedVersion: 2
-  m_Radius: 1.2626953
---- !u!58 &8103821052744754399
+  m_Radius: 0.93123627
+--- !u!58 &2833670480929634451
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,6 +140,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 5.46, y: 0.35217524}
+  m_Offset: {x: 5.88, y: 0.37019253}
   serializedVersion: 2
-  m_Radius: 1.2626953
+  m_Radius: 0.93123627

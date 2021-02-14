@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3844602661634134367}
   - component: {fileID: 3844602661634134366}
   - component: {fileID: 7331122562965444532}
-  - component: {fileID: 8654113987110500368}
+  - component: {fileID: 2030608477196476248}
   m_Layer: 0
   m_Name: IcyPlat_Melting
   m_TagString: Untagged
@@ -159,10 +159,10 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -6.6346054, y: 0.45073825}
+  m_Offset: {x: -6.9484253, y: 0.31573135}
   serializedVersion: 2
-  m_Radius: 1.4059677
---- !u!58 &8654113987110500368
+  m_Radius: 1.1933584
+--- !u!58 &2030608477196476248
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,6 +175,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 6.23, y: 0.45073825}
+  m_Offset: {x: 6.39, y: 0.31573135}
   serializedVersion: 2
-  m_Radius: 1.4059677
+  m_Radius: 1.1933584
