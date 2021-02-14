@@ -45,6 +45,8 @@ GameObject:
   - component: {fileID: 5312511361302373943}
   - component: {fileID: 5312511361302373942}
   - component: {fileID: 5529334658465083539}
+  - component: {fileID: 4171699840847901676}
+  - component: {fileID: 3250997377070531600}
   m_Layer: 0
   m_Name: RockyPlat_Move
   m_TagString: Untagged
@@ -130,7 +132,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.07168484, y: 0.21510601}
+  m_Offset: {x: 0.07168484, y: 0.5813663}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -141,7 +143,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 18.339796, y: 2.622548}
+  m_Size: {x: 18.339796, y: 1.8900275}
   m_EdgeRadius: 0
 --- !u!114 &5529334658465083539
 MonoBehaviour:
@@ -159,6 +161,38 @@ MonoBehaviour:
   pos2: {fileID: 8016355359102921827}
   speed: 2
   startPos: {fileID: 1765748879197670763}
+--- !u!58 &4171699840847901676
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5312511361302373941}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 3626fe8e008014f6bbd19bb72937b311, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -8.450063, y: 0.535305}
+  serializedVersion: 2
+  m_Radius: 1.3471565
+--- !u!58 &3250997377070531600
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5312511361302373941}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 3626fe8e008014f6bbd19bb72937b311, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 8.68, y: 0.535305}
+  serializedVersion: 2
+  m_Radius: 1.3471565
 --- !u!1 &7753660809686148879
 GameObject:
   m_ObjectHideFlags: 0
