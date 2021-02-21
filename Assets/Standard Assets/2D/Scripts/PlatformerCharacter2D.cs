@@ -85,12 +85,14 @@ namespace UnityStandardAssets._2D
                 {
                     // ... flip the player.
                     Flip();
+                    //transform.eulerAngles = new Vector3(0, 0, 0);
                 }
                     // Otherwise if the input is moving the player left and the player is facing right...
                 else if (move < 0 && m_FacingRight)
                 {
                     // ... flip the player.
                     Flip();
+                    //transform.eulerAngles = new Vector3(0, 180, 0);
                 }
             }
             // If the player should jump...
@@ -114,7 +116,10 @@ namespace UnityStandardAssets._2D
             Vector3 theScale = transform.localScale;
             theScale.x *= -1;
             transform.localScale = theScale;
+
+            //transform.eulerAngles = new Vector3(0, 180, 0);
         }
+
 
         public void OnCollisionEnter2D(Collision2D other)
         {

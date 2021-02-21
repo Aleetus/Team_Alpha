@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 6079496690221274833}
   - component: {fileID: 3266582466885695558}
   - component: {fileID: 1731858739}
-  - component: {fileID: 1731858740}
+  - component: {fileID: 1748063830}
   m_Layer: 0
   m_Name: DesertPlat_Bouncy
-  m_TagString: Untagged
+  m_TagString: BouncyPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,10 +124,10 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 3.3, y: 1.2895107}
+  m_Offset: {x: -4.01, y: 1.1518031}
   serializedVersion: 2
-  m_Radius: 1.1029649
---- !u!58 &1731858740
+  m_Radius: 0.9334922
+--- !u!58 &1748063830
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,6 +140,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -3.6342788, y: 1.2895107}
+  m_Offset: {x: 3.6812553, y: 1.1518031}
   serializedVersion: 2
-  m_Radius: 1.1029649
+  m_Radius: 0.9334922

@@ -22,9 +22,16 @@ public class Projectile : MonoBehaviour
         // Set velocity to move forwards at the speed defined above
         rb_projectile.velocity = transform.TransformDirection(Vector2.right) * fl_speed;
 
+    }//-----    
+
+    private void Update()
+    {
+
+
         // Remove this object from the scene when the range is reached 
         Destroy(gameObject, fl_range / Mathf.Abs(fl_speed));
-    }//-----    
+    }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
