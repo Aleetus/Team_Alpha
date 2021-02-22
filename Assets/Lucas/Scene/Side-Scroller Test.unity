@@ -983,8 +983,8 @@ Transform:
   - {fileID: 1650224600}
   - {fileID: 72537166}
   - {fileID: 1195181304}
-  - {fileID: 586234389}
   - {fileID: 51577174}
+  - {fileID: 586234389}
   m_Father: {fileID: 743507212}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1553,13 +1553,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: DesertPlat_Crumbling
       objectReference: {fileID: 0}
+    - target: {fileID: 7526698558230197355, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
+      propertyPath: respawnPosition.x
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526698558230197355, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
+      propertyPath: respawnPosition.y
+      value: -25
+      objectReference: {fileID: 0}
     - target: {fileID: 7526698558230197359, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 52.29
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 7526698558230197359, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25.97
+      value: -32.45
       objectReference: {fileID: 0}
     - target: {fileID: 7526698558230197359, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2104,7 +2112,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1745583237327612829, guid: 121deba4c1276c74db93def0ef60539d, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1745583237327612829, guid: 121deba4c1276c74db93def0ef60539d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
