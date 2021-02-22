@@ -5,26 +5,28 @@ using UnityEngine;
 public class EnemyShoot : MonoBehaviour
 {
     public float range, timeBtwShots, shootSpeed;
-    private float distanceToPlayer;
-    public Transform targetPlayer;
+    //private float distanceToPlayer;
+    //public Transform targetPlayer;
     public Transform shootPos;
     public GameObject projectile;
 
     // Start is called before the first frame update
     void Start()
     {
+        StartCoroutine(Shoot());
+
         //player = GameObject.find("PlayerCharacter")
     }
 
     // Update is called once per frame
     void Update()
     {
-        distanceToPlayer = Vector2.Distance(transform.position, targetPlayer.position);
+        //distanceToPlayer = Vector2.Distance(transform.position, targetPlayer.position);
 
-        if (distanceToPlayer <= range)
-        {
-            StartCoroutine(Shoot());
-        }
+        //if (distanceToPlayer <= range)
+        //{
+            //StartCoroutine(Shoot());
+        //}
     }
 
     IEnumerator Shoot()
