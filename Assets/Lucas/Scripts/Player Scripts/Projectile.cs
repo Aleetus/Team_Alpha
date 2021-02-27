@@ -37,8 +37,10 @@ public class Projectile : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Enemy"))
         {
-            Destroy(gameObject);
+           // Destroy(gameObject);
         }
+        Destroy(gameObject);
+
     }
 
 }

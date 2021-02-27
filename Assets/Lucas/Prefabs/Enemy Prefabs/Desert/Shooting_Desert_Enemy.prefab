@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 5
-  timeBtwShots: 0.5
+  timeBtwShots: 1
   shootSpeed: 3
   shootPos: {fileID: 3047205959364230807}
   projectile: {fileID: 2738027608322738881, guid: a33b6315798428a4faace817ef3cd117, type: 3}
