@@ -21,11 +21,13 @@ public class EnemyShoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //StartCoroutine(Shoot());
+
         //distanceToPlayer = Vector2.Distance(transform.position, targetPlayer.position);
 
         //if (distanceToPlayer <= range)
         //{
-            //StartCoroutine(Shoot());
+        //StartCoroutine(Shoot());
         //}
     }
 
@@ -34,5 +36,7 @@ public class EnemyShoot : MonoBehaviour
         yield return new WaitForSeconds(timeBtwShots);
         GameObject newProjectile = Instantiate(projectile, shootPos.position, Quaternion.identity);
         newProjectile.GetComponent<Rigidbody2D>().velocity = new Vector2(shootSpeed * Time.fixedDeltaTime, 0f);
+        StartCoroutine(Shoot());
+
     }
 }
