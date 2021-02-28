@@ -21,7 +21,7 @@ public class Falling_Platform : MonoBehaviour
         {
             Invoke("PlatformDrop", 0.5f);
             Invoke("PlatNotActive", 1f);
-            Invoke("Respawn", 5f);
+            Invoke("Respawn", 10f);
         }
     }
 

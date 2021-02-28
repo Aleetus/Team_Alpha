@@ -15,6 +15,7 @@ TagManager:
   - IcePlanet
   - SectorBeta
   - BouncyPlatform
+  - UITrigger
   layers:
   - Default
   - TransparentFX
