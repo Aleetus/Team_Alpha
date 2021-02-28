@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InkyPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 4419820024680379326, guid: dece5204e83c9604580c465f5e9caf84, type: 3}
+      propertyPath: inkJSONAsset
+      value: 
+      objectReference: {fileID: 4900000, guid: f579e1e265c72b34889cabf5dd18b71b, type: 3}
     - target: {fileID: 4419820024680379327, guid: dece5204e83c9604580c465f5e9caf84, type: 3}
       propertyPath: m_LocalPosition.x
       value: 456
