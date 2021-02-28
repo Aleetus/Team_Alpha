@@ -9245,7 +9245,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152572, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: sandScene
-      value: LevelOne
+      value: LevelOneRefined
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152572, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: iceScene
@@ -9253,7 +9253,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152572, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: lavaScene
-      value: LevelTwo
+      value: LevelTwoRefined
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152573, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_Offset.x
