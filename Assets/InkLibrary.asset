@@ -12,10 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc234ab28a32840f5adfb84a075bc023, type: 3}
   m_Name: InkLibrary
   m_EditorClassIdentifier: 
-  inkLibrary:
-  - compileAutomatically: 0
-    inkAsset: {fileID: 102900000, guid: 4959f45a47d4e804a84c683f35668274, type: 3}
-    jsonAssetDirectory: {fileID: 0}
-    jsonAsset: {fileID: 4900000, guid: 9cb03d3b004e73a4ba8977ad8457d0ce, type: 3}
+  inkLibrary: []
   pendingCompilationStack: []
   compilationStack: []
