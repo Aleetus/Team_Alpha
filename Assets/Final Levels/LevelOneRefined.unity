@@ -13060,7 +13060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd0455875cb5e134faab431d9ecb2355, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Inky 1
+  sceneToLoad: Inky1
 --- !u!114 &1571016148
 MonoBehaviour:
   m_ObjectHideFlags: 0
