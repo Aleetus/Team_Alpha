@@ -991,6 +991,10 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8227580024013569492, guid: b86d2a42e6ab85641b255792db8bc3fd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -229
+      objectReference: {fileID: 0}
     - target: {fileID: 8227580024013569493, guid: b86d2a42e6ab85641b255792db8bc3fd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
