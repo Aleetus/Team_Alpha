@@ -117,7 +117,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2866717880326381623}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.198, z: 0}
+  m_LocalPosition: {x: -0.182, y: 0.091, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8229249882815064987}
@@ -272,6 +272,5 @@ MonoBehaviour:
   range: 5
   timeBtwShots: 2
   shootSpeed: 3
-  targetPlayer: {fileID: 2761097940070204933, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
   shootPos: {fileID: 4939304795655737057}
   projectile: {fileID: 94809623061140702, guid: 83fc119e374b74c419c0d8f22e7bfd07, type: 3}
