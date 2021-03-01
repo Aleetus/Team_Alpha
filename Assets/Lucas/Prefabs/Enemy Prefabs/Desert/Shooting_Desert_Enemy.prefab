@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ebd4a86011d6a4448032adf2ba80ddf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 5
+  range: 15
   timeBtwShots: 1
   shootSpeed: 3
   shootPos: {fileID: 3047205959364230807}

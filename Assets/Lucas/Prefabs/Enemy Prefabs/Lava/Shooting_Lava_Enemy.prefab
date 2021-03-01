@@ -129,10 +129,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ebd4a86011d6a4448032adf2ba80ddf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 5
+  range: 15
   timeBtwShots: 2
   shootSpeed: 3
-  targetPlayer: {fileID: 2761097940070204933, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
   shootPos: {fileID: 3951069043750745616}
   projectile: {fileID: 5432822958423694758, guid: 2508bdd96255d5a4e845aeb99b70cca5, type: 3}
 --- !u!1 &2217021589612735777
