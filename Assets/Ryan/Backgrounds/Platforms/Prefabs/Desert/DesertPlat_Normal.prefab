@@ -10,9 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1881599020219047350}
   - component: {fileID: 1881599020219047351}
-  - component: {fileID: 1881599020219047348}
-  - component: {fileID: 1000007749}
-  - component: {fileID: 2927240247178896922}
+  - component: {fileID: 1578318910}
   m_Layer: 0
   m_Name: DesertPlat_Normal
   m_TagString: Untagged
@@ -85,34 +83,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1881599020219047348
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1881599020219047349}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.019394875, y: 0.9783126}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 18.02, y: 5.66}
-    newSize: {x: 18.02, y: 5.66}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 17.127867, y: 2.8304079}
-  m_EdgeRadius: 0
---- !u!58 &1000007749
-CircleCollider2D:
+--- !u!70 &1578318910
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -124,22 +96,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -8.240276, y: 0.8879912}
-  serializedVersion: 2
-  m_Radius: 1.2410975
---- !u!58 &2927240247178896922
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1881599020219047349}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 3626fe8e008014f6bbd19bb72937b311, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 8.19, y: 0.8879912}
-  serializedVersion: 2
-  m_Radius: 1.2410975
+  m_Offset: {x: 0.05824476, y: 0.5246462}
+  m_Size: {x: 18.236097, y: 4.3743305}
+  m_Direction: 1

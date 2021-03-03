@@ -20,6 +20,8 @@ namespace UnityStandardAssets._2D
         private Rigidbody2D m_Rigidbody2D;
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 
+        public float pushForce = 10f;
+
         public GameObject Player;
 
         public AudioSource jumpSound;
@@ -80,6 +82,8 @@ namespace UnityStandardAssets._2D
                 // Move the character
                 m_Rigidbody2D.velocity = new Vector2(move*m_MaxSpeed, m_Rigidbody2D.velocity.y);
 
+                
+
                 // If the input is moving the player right and the player is facing left...
                 if (move > 0 && !m_FacingRight)
                 {
@@ -120,13 +124,17 @@ namespace UnityStandardAssets._2D
             //transform.eulerAngles = new Vector3(0, 180, 0);
         }
 
-
         public void OnCollisionEnter2D(Collision2D other)
         {
             if (other.gameObject.CompareTag("Platform"))
             {
                 Player.transform.parent = other.gameObject.transform;
             }
+
+            //if (m_Grounded || m_AirControl || other.gameObject.CompareTag("PlatSlip"))
+            //{
+            //    m_Rigidbody2D.AddForce(this.transform.forward * pushForce * Time.deltaTime, ForceMode2D.Force);
+            //}
         }
 
 

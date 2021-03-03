@@ -10,10 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3426764088920046460}
   - component: {fileID: 3426764088920046461}
-  - component: {fileID: 3426764088920046462}
   - component: {fileID: 5481760372728148068}
-  - component: {fileID: 3583200342353383727}
-  - component: {fileID: 2704421857881637051}
+  - component: {fileID: 4476805506685667056}
   m_Layer: 0
   m_Name: IcyPlat_Move
   m_TagString: Untagged
@@ -86,32 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3426764088920046462
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3426764088920046463}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.099999905, y: 1.7345314}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 15.79, y: 8.18}
-    newSize: {x: 15.79, y: 8.18}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 15, y: 3.5309372}
-  m_EdgeRadius: 0
 --- !u!114 &5481760372728148068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,8 +100,8 @@ MonoBehaviour:
   pos2: {fileID: 6881992689565680738}
   speed: 2
   startPos: {fileID: 6965391606881895330}
---- !u!58 &3583200342353383727
-CircleCollider2D:
+--- !u!70 &4476805506685667056
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -141,25 +113,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -7.53, y: 1.7049471}
-  serializedVersion: 2
-  m_Radius: 1.0632744
---- !u!58 &2704421857881637051
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3426764088920046463}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 3626fe8e008014f6bbd19bb72937b311, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 7.29, y: 1.7049471}
-  serializedVersion: 2
-  m_Radius: 1.0632744
+  m_Offset: {x: -0.08362622, y: 0.8902404}
+  m_Size: {x: 15.511239, y: 4.200857}
+  m_Direction: 1
 --- !u!1 &4273637837448764619
 GameObject:
   m_ObjectHideFlags: 0

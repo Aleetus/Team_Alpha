@@ -16,6 +16,7 @@ TagManager:
   - SectorBeta
   - BouncyPlatform
   - UITrigger
+  - PlatSlip
   layers:
   - Default
   - TransparentFX

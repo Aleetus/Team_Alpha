@@ -10,11 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7526698558230197359}
   - component: {fileID: 7526698558230197358}
-  - component: {fileID: 7526698558230197353}
   - component: {fileID: 7526698558230197352}
   - component: {fileID: 7526698558230197355}
-  - component: {fileID: 1508234413}
-  - component: {fileID: 6253248259767071335}
+  - component: {fileID: 4308834656479286478}
   m_Layer: 0
   m_Name: DesertPlat_Crumbling
   m_TagString: Untagged
@@ -87,32 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7526698558230197353
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7526698558230197354}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.2682935}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 18.02, y: 5.66}
-    newSize: {x: 18.02, y: 5.66}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 16.625252, y: 2.306381}
-  m_EdgeRadius: 0
 --- !u!50 &7526698558230197352
 Rigidbody2D:
   serializedVersion: 4
@@ -146,10 +118,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc0f999becaea654db29c3d6bab8bdee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnPosition: {x: 0, y: 0}
-  platform: {fileID: 7526698558230197354}
---- !u!58 &1508234413
-CircleCollider2D:
+  respawnPosition: {x: 52, y: -25}
+--- !u!70 &4308834656479286478
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -161,22 +132,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -8.12, y: 0.24760723}
-  serializedVersion: 2
-  m_Radius: 0.9783859
---- !u!58 &6253248259767071335
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7526698558230197354}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 3626fe8e008014f6bbd19bb72937b311, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 7.9876842, y: 0.24760723}
-  serializedVersion: 2
-  m_Radius: 0.9783859
+  m_Offset: {x: 0.0000019226607, y: 0.16055481}
+  m_Size: {x: 17.653702, y: 2.4811077}
+  m_Direction: 1
