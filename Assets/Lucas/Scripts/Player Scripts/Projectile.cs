@@ -17,15 +17,16 @@ public class Projectile : MonoBehaviour
     void Start()
     {
         // Get the reference to the rigidbody physics controller for this object 
-        rb_projectile = GetComponent<Rigidbody2D>();
+        //rb_projectile = GetComponent<Rigidbody2D>();
 
         // Set velocity to move forwards at the speed defined above
-        rb_projectile.velocity = transform.TransformDirection(Vector2.right) * fl_speed;
+        //rb_projectile.velocity = transform.TransformDirection(Vector2.right) * fl_speed;
 
     }//-----    
 
     private void Update()
     {
+        transform.Translate(Vector3.right * Time.deltaTime * fl_speed);
 
 
         // Remove this object from the scene when the range is reached 
