@@ -26,6 +26,8 @@ namespace UnityStandardAssets._2D
 
         public AudioSource jumpSound;
 
+        Transform playerGraphics;
+
         private void Awake()
         {
             // Setting up references.
@@ -33,6 +35,12 @@ namespace UnityStandardAssets._2D
             m_CeilingCheck = transform.Find("CeilingCheck");
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
+
+            playerGraphics = transform.Find("PlayerGraphics");
+            if (playerGraphics == null)
+            {
+                Debug.LogError("add a sprite pls");
+            }
         }
 
 
@@ -117,11 +125,10 @@ namespace UnityStandardAssets._2D
             m_FacingRight = !m_FacingRight;
 
             // Multiply the player's x local scale by -1.
-            Vector3 theScale = transform.localScale;
+            Vector3 theScale = playerGraphics.localScale;
             theScale.x *= -1;
-            transform.localScale = theScale;
+            playerGraphics.localScale = theScale;
 
-            //transform.eulerAngles = new Vector3(0, 180, 0);
         }
 
         public void OnCollisionEnter2D(Collision2D other)
@@ -130,11 +137,6 @@ namespace UnityStandardAssets._2D
             {
                 Player.transform.parent = other.gameObject.transform;
             }
-
-            //if (m_Grounded || m_AirControl || other.gameObject.CompareTag("PlatSlip"))
-            //{
-            //    m_Rigidbody2D.AddForce(this.transform.forward * pushForce * Time.deltaTime, ForceMode2D.Force);
-            //}
         }
 
 
