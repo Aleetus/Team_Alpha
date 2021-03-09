@@ -67,6 +67,8 @@ public class PlayerLife : MonoBehaviour
         {
             currentHealth -= DeathTouch.Damage;              // Damage Value is removed from the player current health.
         }
+
+
     }
     private void OnTriggerStay2D(Collider2D collideWith)
     {
@@ -80,6 +82,10 @@ public class PlayerLife : MonoBehaviour
         if (collision.gameObject.tag.Equals("Enemy"))        // Up on collision with a "Enemy" Tagged GameObject:
         {
             currentHealth -= EnemyBehaviour.Damage;          // Damage Value is removed from the player current health.
+        }
+        if (collision.gameObject.tag.Equals("FallingSpike"))
+        {
+            currentHealth -= FallingSpike.Damage;
         }
     }
 

@@ -17,6 +17,7 @@ TagManager:
   - BouncyPlatform
   - UITrigger
   - PlatSlip
+  - FallingSpike
   layers:
   - Default
   - TransparentFX
