@@ -342,7 +342,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 590469933264355936, guid: ccac42f0febccc44c9dfcc024bb9eafd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.023
+      value: -1.022
       objectReference: {fileID: 0}
     - target: {fileID: 590469933264355936, guid: ccac42f0febccc44c9dfcc024bb9eafd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -386,7 +386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 590469933264355936, guid: ccac42f0febccc44c9dfcc024bb9eafd, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.753651
+      value: 6.201278
       objectReference: {fileID: 0}
     - target: {fileID: 590469933264355936, guid: ccac42f0febccc44c9dfcc024bb9eafd, type: 3}
       propertyPath: m_LocalScale.y
@@ -409,6 +409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InkyPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 4419820024680379326, guid: dece5204e83c9604580c465f5e9caf84, type: 3}
+      propertyPath: inkJSONAsset
+      value: 
+      objectReference: {fileID: 4900000, guid: 5e60e984029d1f54f9724c9b66f50ebd, type: 3}
     - target: {fileID: 4419820024680379327, guid: dece5204e83c9604580c465f5e9caf84, type: 3}
       propertyPath: m_LocalPosition.x
       value: 456
