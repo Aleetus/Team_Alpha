@@ -9,6 +9,7 @@ public class FallingSpike : MonoBehaviour
     Rigidbody2D rb;
     public Vector2 respawnPosition;
 
+    [SerializeField] private Animator myAnimationController;
 
     // Start is called before the first frame update
     void Start()
@@ -21,16 +22,14 @@ public class FallingSpike : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Player"))
         {
-            Invoke("PlatformDrop", 0.2f);
+            myAnimationController.SetBool("Shake", true);
+            Invoke("PlatformDrop", 1f);
             Invoke("Respawn", 10f);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag.Equals("Player"))
-        {
-            gameObject.SetActive(false);
-        }
+        gameObject.SetActive(false);
     }
 
     void PlatformDrop()
