@@ -97,7 +97,7 @@ Animator:
   m_GameObject: {fileID: 6008977727779782239}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3250f9536666fde47826a43900a32eab, type: 2}
+  m_Controller: {fileID: 9100000, guid: 878b4e2af21f6e941955922ee5ac5caf, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -160,7 +160,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8b8c42cba47ac74995484acf75c59ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dropTime: 1
   respawnPosition: {x: 0, y: 0}
+  myAnimationController: {fileID: 8209524061663155917}
 --- !u!50 &6008977727779782229
 Rigidbody2D:
   serializedVersion: 4

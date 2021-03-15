@@ -5,6 +5,8 @@ using UnityEngine;
 public class FallingSpike : MonoBehaviour
 {
     public static float Damage = 30f;
+    public float dropTime = 1f;
+    public float respawnTime = 10f;
 
     Rigidbody2D rb;
     public Vector2 respawnPosition;
@@ -23,8 +25,8 @@ public class FallingSpike : MonoBehaviour
         if (collision.gameObject.tag.Equals("Player"))
         {
             myAnimationController.SetBool("Shake", true);
-            Invoke("PlatformDrop", 1f);
-            Invoke("Respawn", 10f);
+            Invoke("PlatformDrop", dropTime);
+            Invoke("Respawn", respawnTime);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)

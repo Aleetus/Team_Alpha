@@ -1387,11 +1387,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &1232399778 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 8209524061663155917, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
-  m_PrefabInstance: {fileID: 6008977728377908605}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1235849356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3825,21 +3820,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6008977727779782238, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
-      propertyPath: myAnimationController
-      value: 
-      objectReference: {fileID: 1232399778}
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209524061663155917, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 878b4e2af21f6e941955922ee5ac5caf, type: 2}
-    - target: {fileID: 8209524061663155917, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
