@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 539228695290471164}
   - component: {fileID: 4551780164949965230}
-  - component: {fileID: 5327411891034989728}
+  - component: {fileID: 1797907392179916822}
   m_Layer: 0
   m_Name: Dessert_Ground_C
   m_TagString: Untagged
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5327411891034989728
+--- !u!61 &1797907392179916822
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,7 +96,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0000009536743, y: 4.203495}
+  m_Offset: {x: -0.029867172, y: -0.11949873}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -107,5 +107,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.934801, y: 2.4002151}
+  m_Size: {x: 9.879948, y: 11.063031}
   m_EdgeRadius: 0
