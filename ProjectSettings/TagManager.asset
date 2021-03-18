@@ -18,6 +18,7 @@ TagManager:
   - UITrigger
   - PlatSlip
   - FallingSpike
+  - Ladder
   layers:
   - Default
   - TransparentFX
@@ -28,7 +29,7 @@ TagManager:
   - 
   - 
   - Player
-  - 
+  - Ladder
   - 
   - 
   - 
@@ -54,6 +55,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ladder
+    uniqueID: 3522315475
     locked: 0
   - name: Player
     uniqueID: 2436932089

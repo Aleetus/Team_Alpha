@@ -11,6 +11,11 @@ namespace UnityStandardAssets._2D
         [SerializeField] private bool m_AirControl = false;                 // Whether or not a player can steer while jumping;
         [SerializeField] private LayerMask m_WhatIsGround;                  // A mask determining what is ground to the character
 
+        private float inputVertical;   // This is to allow the player to climb ladders.
+        public float rayDistance = 10; // Distance of the Ray that searches for ladders.
+        public LayerMask whatIsLadder; // Determins what is a ladder.
+        private bool isClimbing;
+
         private Transform m_GroundCheck;    // A position marking where to check if the player is grounded.
         const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
         private bool m_Grounded;            // Whether or not the player is grounded.
@@ -22,11 +27,11 @@ namespace UnityStandardAssets._2D
 
         public float pushForce = 10f;
 
-        public GameObject Player;
+        public GameObject Player;  // Reference to the player prefab.
 
-        public AudioSource jumpSound;
+        public AudioSource jumpSound;  // Audio source self explanitory.
 
-        Transform playerGraphics;
+        Transform playerGraphics;     // Reference to the player graphics gameobjects' transform.
 
         private void Awake()
         {
@@ -60,6 +65,34 @@ namespace UnityStandardAssets._2D
 
             // Set the vertical animation
             m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
+
+            RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.up, rayDistance, whatIsLadder);
+            if (hitInfo.collider != null)
+            {
+                if (Input.GetKeyDown(KeyCode.W))
+                {
+                    isClimbing = true;
+
+                }
+                else
+                {
+                    if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
+                    {
+                        isClimbing = false;
+
+                    }
+                }
+            }
+            if(isClimbing == true && hitInfo.collider != null)
+            {
+                inputVertical = Input.GetAxisRaw("Vertical");
+                m_Rigidbody2D.velocity = new Vector2(m_Rigidbody2D.velocity.x, inputVertical * m_MaxSpeed);
+                m_Rigidbody2D.gravityScale = 0; 
+            }
+            else
+            {
+                m_Rigidbody2D.gravityScale = 3;
+            }
         }
 
 
@@ -138,8 +171,6 @@ namespace UnityStandardAssets._2D
                 Player.transform.parent = other.gameObject.transform;
             }
         }
-
-
         private void OnCollisionExit2D(Collision2D other)
         {
             if (other.gameObject.CompareTag("Platform"))
