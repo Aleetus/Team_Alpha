@@ -7,6 +7,7 @@ public class Melting_Platform : MonoBehaviour
     Rigidbody2D rb;
 
     public Vector2 respawnPosition;
+    public bool respawnPlatform;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +21,15 @@ public class Melting_Platform : MonoBehaviour
         if (collision.gameObject.tag.Equals("Player"))
         {
             Invoke("PlatNotActive", 1f);
-            Invoke("Respawn", 5f);
+            if (respawnPlatform == true)
+            {
+                Invoke("Respawn", 5f);
+
+            }
+            else
+            {
+                return;
+            }
         }
     }
 

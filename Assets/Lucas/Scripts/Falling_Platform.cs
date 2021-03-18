@@ -7,6 +7,8 @@ public class Falling_Platform : MonoBehaviour
     Rigidbody2D rb;
 
     public Vector2 respawnPosition;
+    public bool respawnPlatform;
+
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +23,10 @@ public class Falling_Platform : MonoBehaviour
         {
             Invoke("PlatformDrop", 0.5f);
             Invoke("PlatNotActive", 1f);
-            Invoke("Respawn", 10f);
+            if (respawnPlatform == true)
+            {
+                Invoke("Respawn", 10f);
+            }
         }
     }
 
