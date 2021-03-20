@@ -42,18 +42,21 @@ EditorBuildSettings:
     path: Assets/Final Levels/LevelSelect3.unity
     guid: cd3fca0fda08dfb489708a08d9a2028e
   - enabled: 1
-    path: Assets/Final Levels/LevelThree.unity
-    guid: 10ed58272dbedfb40bd08a0e6934036f
+    path: Assets/Final Levels/LevelThreeRefined.unity
+    guid: f7130eddf75c03c4a8e2d73ad10e997b
   - enabled: 1
     path: Assets/Final Levels/Inky3.unity
     guid: 9c4fbefa0041945489fb461fd7b0a0c8
+  - enabled: 0
+    path: Assets/Final Levels/LevelThree.unity
+    guid: 10ed58272dbedfb40bd08a0e6934036f
   - enabled: 0
     path: Assets/Final Levels/LevelTwo.unity
     guid: 43f8d4cba31446b459a5ce953c365309
   - enabled: 1
     path: Assets/Final Levels/LevelSelect4.unity
     guid: 3b97714cee18731418fda5ab92b85e76
-  - enabled: 1
+  - enabled: 0
     path: Assets/Final Levels/Inky4.unity
     guid: 45bbbfa216fe63b48a1dacb118609fea
   - enabled: 0
