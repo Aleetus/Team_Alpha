@@ -72,7 +72,7 @@ public class PlayerLife : MonoBehaviour
     }
     private void OnTriggerStay2D(Collider2D collideWith)
     {
-        if (collideWith.gameObject.tag.Equals("Hazard"))     // Up on collision with a "Hazard" Tagged GameObject:
+        if (collideWith.gameObject.tag.Equals("Hazard"))     // Upon collision with a "Hazard" Tagged GameObject:
         {
             currentHealth -= HazardDamage.Damage;            // Damage Value is removed from the player current health.
         }

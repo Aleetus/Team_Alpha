@@ -4,41 +4,29 @@ using UnityEngine;
 
 public class EnemyProjectile : MonoBehaviour
 {
-    public float dieTime, damage;
-    private Rigidbody2D rb_projectile;
     public float fl_speed = 5;
+    public float fl_range = 10;
+    private Rigidbody2D rb_projectile;
 
+    public static float damage = 25f;
 
-    void Start()
+    //---------------------------------------------------------------------------------------  
+
+    private void Update()
     {
-        StartCoroutine(CountDownTimer());
+        transform.Translate(Vector3.right * Time.deltaTime * fl_speed);
 
-        rb_projectile = GetComponent<Rigidbody2D>();
-        rb_projectile.velocity = transform.TransformDirection(Vector2.left) * fl_speed;
+
+        // Remove this object from the scene when the range is reached 
+        Destroy(gameObject, fl_range / Mathf.Abs(fl_speed));
     }
-
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag.Equals("Player"))
         {
             PlayerLife.currentHealth -= damage;
-            //Die();
         }
-        Die();
-
-    }
-
-    IEnumerator CountDownTimer()
-    {
-        yield return new WaitForSeconds(dieTime);
-        Die();
-        
-
-    }
-
-    void Die()
-    {
         Destroy(gameObject);
     }
 }

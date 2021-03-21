@@ -9,12 +9,9 @@ public class HealthPickup : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.tag.Equals("Player"))
-        {
-            gameObject.SetActive(false);
+        gameObject.SetActive(false);
 
-            Invoke("RespawnHealthBoost", 10);
-        }
+        Invoke("RespawnHealthBoost", 10);
     }
 
     void RespawnHealthBoost()
