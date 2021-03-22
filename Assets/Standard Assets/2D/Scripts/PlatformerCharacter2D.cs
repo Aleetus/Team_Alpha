@@ -69,19 +69,24 @@ namespace UnityStandardAssets._2D
             RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.up, rayDistance, whatIsLadder);
             if (hitInfo.collider != null)
             {
-                if (Input.GetKeyDown(KeyCode.W))
-                {
-                    isClimbing = true;
+                isClimbing = true;
 
-                }
-                else
+                if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
                 {
-                    if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
-                    {
-                        isClimbing = false;
-
-                    }
+                    isClimbing = false;
                 }
+
+                //if (Input.GetKeyDown(KeyCode.W))
+                //{
+                //    isClimbing = true;
+                //}
+                //else
+                //{
+                //    if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
+                //    {
+                //        isClimbing = false;
+                //    }
+                //}
             }
             if(isClimbing == true && hitInfo.collider != null)
             {
