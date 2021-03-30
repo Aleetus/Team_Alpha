@@ -29,20 +29,6 @@ public class TurretFish : MonoBehaviour
         Debug.Log(direction);
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         rb.rotation = angle;
-        //Shootv2();
-
-    }
-    private void FixedUpdate()
-    {
-        //Shootv2();
-    }
-
-    void Shootv2()
-    {
-        Vector2 firePointPosition = new Vector2(firePoint.position.x, firePoint.position.y);
-        GameObject newProjectile = Instantiate(projectile, firePoint.position + firePoint.TransformDirection(Vector2.right), firePoint.transform.rotation);
-        newProjectile.GetComponent<Rigidbody2D>().velocity = new Vector2(shootSpeed * Time.fixedDeltaTime, 0f);
-
     }
 
     IEnumerator Shoot()
@@ -52,6 +38,5 @@ public class TurretFish : MonoBehaviour
         GameObject newProjectile = Instantiate(projectile, firePoint.position + firePoint.TransformDirection(Vector2.right), firePoint.transform.rotation);
         newProjectile.GetComponent<Rigidbody2D>().velocity = new Vector2(shootSpeed * Time.fixedDeltaTime, 0f);
         StartCoroutine(Shoot());
-
     }
 }

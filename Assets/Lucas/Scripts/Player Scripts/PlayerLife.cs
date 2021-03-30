@@ -45,8 +45,6 @@ public class PlayerLife : MonoBehaviour
             currentHealth = maxHealth;                       // Sets the player health bar back to full.
 
         }
-
-
     }
 
     private void OnTriggerEnter2D(Collider2D collider)
@@ -102,10 +100,7 @@ public class PlayerLife : MonoBehaviour
             gameOverSound.Play();                            // Sound plays.
             GameOver_Canvas.SetActive(true);                 // Game Over Canvas is set to visible.
             gameObject.SetActive(false);                     // Player Game Object is deactivated.
-
-
         }
-
     }
 
 }
