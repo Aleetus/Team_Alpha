@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 7df13f88f46ea1e43aaf0a3fe311d4e3
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2365953200267360885
+    second: Branch_Detail_0
+  - first:
+      213: -2550775800682786998
+    second: Branch_Detail_1
+  - first:
+      213: -4918178748434558910
+    second: Branch_Detail_2
+  - first:
+      213: -3775005072911850534
+    second: Branch_Detail_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +53,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -111,7 +123,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Branch_Detail_0
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 608
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a722976ed85d020800000000000000
+      internalID: 2365953200267360885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch_Detail_1
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1536
+        width: 736
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fc3a28ce2d99cd0800000000000000
+      internalID: -2550775800682786998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch_Detail_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 672
+        width: 448
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240dea56c7e1fbbb0800000000000000
+      internalID: -4918178748434558910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch_Detail_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1120
+        width: 256
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3aac313ec7c9bc0800000000000000
+      internalID: -3775005072911850534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
