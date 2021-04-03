@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPC_Follow : MonoBehaviour
+public class ChaseFish : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public Vector2 respawnPosition;
+    public Transform spawnPoint;
 
     private Rigidbody2D rb;
     private Vector2 movement;
@@ -33,13 +34,10 @@ public class NPC_Follow : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         Vector3 direction = target.position - transform.position;
-        Debug.Log(direction);
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        rb.rotation = angle;
         direction.Normalize();
         movement = direction;
     }
@@ -54,12 +52,12 @@ public class NPC_Follow : MonoBehaviour
         rb.MovePosition((Vector2)transform.position + (direction * moveSpeed * Time.deltaTime));
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collision.gameObject.tag.Equals("Player"))
+        if (collider.gameObject.tag.Equals("Player"))
         {
             gameObject.SetActive(false);
-            Invoke("Respawn", 10f);
+            Invoke("Respawn", 0f);
         }
     }
 
@@ -84,5 +82,4 @@ public class NPC_Follow : MonoBehaviour
             yield return false;
         }
     }
-
 }
