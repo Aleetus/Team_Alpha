@@ -149,7 +149,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3084361}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.13, y: 31.1, z: 0}
+  m_LocalPosition: {x: 17.7, y: 36.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 856634344}
@@ -182,7 +182,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 31.300873, y: 4.5454025}
+  m_Offset: {x: 32.60942, y: 4.5454025}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -193,7 +193,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 36.959717, y: 14.797989}
+  m_Size: {x: 39.576813, y: 14.797989}
   m_EdgeRadius: 0
 --- !u!1 &6486398
 GameObject:
@@ -701,11 +701,11 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 78b656a2cf8c24b4b83e1ee899e5fb5d, type: 3}
     - target: {fileID: 198151738, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
       propertyPath: m_Volume
-      value: 0.4
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 198151738, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
       propertyPath: Priority
-      value: 125
+      value: 101
       objectReference: {fileID: 0}
     - target: {fileID: 696662857, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
       propertyPath: fireRate
@@ -2226,6 +2226,14 @@ PrefabInstance:
     - target: {fileID: 2017783692558092496, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
       propertyPath: m_Color.b
       value: 0.8584906
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395368386403296382, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
+      propertyPath: m_Offset.y
+      value: 4.4863343
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395368386403296382, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
+      propertyPath: m_Size.y
+      value: 3.0209398
       objectReference: {fileID: 0}
     - target: {fileID: 8685993007640085222, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4214,7 +4222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &379344163
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6397,13 +6405,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f1b305fac1dc06149bec28a19ed9e759, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.3
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 125
+  Priority: 100
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -9193,6 +9201,14 @@ PrefabInstance:
     - target: {fileID: 2017783692558092496, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
       propertyPath: m_Color.b
       value: 0.8584906
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395368386403296382, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
+      propertyPath: m_Offset.y
+      value: 4.3510594
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395368386403296382, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
+      propertyPath: m_Size.y
+      value: 3.2914898
       objectReference: {fileID: 0}
     - target: {fileID: 8685993007640085222, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16435,6 +16451,14 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.8584906
       objectReference: {fileID: 0}
+    - target: {fileID: 5395368386403296382, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
+      propertyPath: m_Offset.y
+      value: 4.6669855
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395368386403296382, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
+      propertyPath: m_Size.y
+      value: 2.6596375
+      objectReference: {fileID: 0}
     - target: {fileID: 8685993007640085222, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -195.49333
@@ -16895,6 +16919,14 @@ PrefabInstance:
     - target: {fileID: 2017783692558092496, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
       propertyPath: m_Color.b
       value: 0.8584906
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395368386403296382, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
+      propertyPath: m_Offset.y
+      value: 4.346621
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395368386403296382, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
+      propertyPath: m_Size.y
+      value: 3.3003662
       objectReference: {fileID: 0}
     - target: {fileID: 8685993007640085222, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19851,7 +19883,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PRESS SPACE TO BOUNCE
+  m_Text: LOADING...
 --- !u!222 &2025453397
 CanvasRenderer:
   m_ObjectHideFlags: 0
