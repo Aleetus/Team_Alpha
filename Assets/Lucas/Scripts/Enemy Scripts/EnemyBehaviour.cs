@@ -10,6 +10,8 @@ public class EnemyBehaviour : MonoBehaviour
 
     public static float Damage = 10f;
 
+    public static float waspDamage = 20f;
+
 
     // Start is called before the first frame update
     void Start()

@@ -65,6 +65,10 @@ public class PlayerLife : MonoBehaviour
         {
             currentHealth -= DeathTouch.Damage;              // Damage Value is removed from the player current health.
         }
+        if (collider.gameObject.tag.Equals("Enemy"))
+        {
+            currentHealth -= EnemyBehaviour.waspDamage;
+        }
     }
     private void OnTriggerStay2D(Collider2D collideWith)
     {
