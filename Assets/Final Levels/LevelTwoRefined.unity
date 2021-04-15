@@ -3771,6 +3771,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.423
       objectReference: {fileID: 0}
+    - target: {fileID: 3654166535367407708, guid: 0a0192e8717ea1d478ebeffc88878119, type: 3}
+      propertyPath: respawnPlatform
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9008531564295598965, guid: 0a0192e8717ea1d478ebeffc88878119, type: 3}
       propertyPath: m_Name
       value: RockyPlat_Crumbling (1)
@@ -12190,6 +12194,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -1.282
       objectReference: {fileID: 0}
+    - target: {fileID: 3654166535367407708, guid: 0a0192e8717ea1d478ebeffc88878119, type: 3}
+      propertyPath: respawnPlatform
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9008531564295598965, guid: 0a0192e8717ea1d478ebeffc88878119, type: 3}
       propertyPath: m_Name
       value: RockyPlat_Crumbling (4)
@@ -19963,6 +19971,10 @@ PrefabInstance:
     - target: {fileID: 1914927959175671004, guid: 0a0192e8717ea1d478ebeffc88878119, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -1.282
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654166535367407708, guid: 0a0192e8717ea1d478ebeffc88878119, type: 3}
+      propertyPath: respawnPlatform
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9008531564295598965, guid: 0a0192e8717ea1d478ebeffc88878119, type: 3}
       propertyPath: m_Name
