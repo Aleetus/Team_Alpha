@@ -13,6 +13,7 @@ public class NPC_Follow : MonoBehaviour
     public Transform target;
     private bool searchingForPlayer = false;
 
+    public float detectRange = 20;
 
 
     // Start is called before the first frame update
@@ -42,11 +43,18 @@ public class NPC_Follow : MonoBehaviour
         rb.rotation = angle;
         direction.Normalize();
         movement = direction;
+
     }
 
     private void FixedUpdate()
     {
-        moveCharacter(movement);
+        float distToPlayer = Vector2.Distance(transform.position, target.position);  // Calculates distance from player and enemy.
+        if (distToPlayer < detectRange) // If the distance from the enemy to the player is less than the detect ran
+        {
+            moveCharacter(movement);
+        }
+
+            
     }
 
     void moveCharacter(Vector2 direction)
