@@ -59,6 +59,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Final Levels/Inky4.unity
     guid: 45bbbfa216fe63b48a1dacb118609fea
+  - enabled: 1
+    path: Assets/Final Levels/LevelFour.unity
+    guid: 46fe526b70f7bb04fb9c8e9f72e4c674
+  - enabled: 1
+    path: Assets/Final Levels/LevelSelect5.unity
+    guid: 92ec9de7b55bfae44a39c94360cb990e
   - enabled: 0
     path: Assets/Lucas/Scene/Side-Scroller Test.unity
     guid: 0b07569e0604eb14da2b8ee7341c227c

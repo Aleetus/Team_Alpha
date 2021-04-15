@@ -10,6 +10,7 @@ public class PC_Movement : MonoBehaviour
     public string iceScene;
     public string lavaScene;
     public string sectorBeta;
+    public string jungleScene;
 
     bool canLoadScene = false;
 
@@ -107,6 +108,16 @@ public class PC_Movement : MonoBehaviour
             }
 
         }
-    }
 
+        if (collider.tag == "JunglePlanet")
+        {
+            Debug.Log("Planet!!");
+
+            if (canLoadScene == true)
+            {
+                canLoadScene = false;
+                SceneManager.LoadScene(jungleScene);
+            }
+        }
+    }
 }
