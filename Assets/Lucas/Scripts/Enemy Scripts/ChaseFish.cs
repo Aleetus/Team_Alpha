@@ -50,6 +50,11 @@ public class ChaseFish : MonoBehaviour
         {
             moveCharacter(movement);
         }
+        else
+        {
+            Invoke("Respawn", 0f);
+            StartCoroutine(searchForPlayer());
+        }
     }
 
     void moveCharacter(Vector2 direction)
@@ -78,7 +83,8 @@ public class ChaseFish : MonoBehaviour
         if (sResult == null)
         {
             yield return new WaitForSeconds(0.5f);
-            StartCoroutine(searchForPlayer());
+            gameObject.SetActive(false);
+            
         }
         else
         {
