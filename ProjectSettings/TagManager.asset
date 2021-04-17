@@ -21,6 +21,7 @@ TagManager:
   - Ladder
   - ChaseFishTrigger
   - JunglePlanet
+  - Background
   layers:
   - Default
   - TransparentFX
@@ -32,7 +33,7 @@ TagManager:
   - 
   - Player
   - Ladder
-  - 
+  - Background
   - 
   - 
   - 
