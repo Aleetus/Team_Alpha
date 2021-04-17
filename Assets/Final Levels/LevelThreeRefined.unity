@@ -1537,7 +1537,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 77465496}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2934,6 +2934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
 --- !u!4 &215012050 stripped
@@ -3582,6 +3586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint
       objectReference: {fileID: 0}
+    - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
 --- !u!1001 &327695493
@@ -4034,6 +4042,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice_Health_Pickup (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8231293962344338862, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
 --- !u!4 &368146661 stripped
@@ -4388,7 +4400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 398345449}
   - component: {fileID: 398345450}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Ice theme_seven_and_eight_7-8_combined
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4516,7 +4528,7 @@ GameObject:
   - component: {fileID: 402578326}
   - component: {fileID: 402578328}
   - component: {fileID: 402578327}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger2
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -5165,7 +5177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 440042382}
   - component: {fileID: 440042381}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shoot_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5851,7 +5863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 477394753}
   - component: {fileID: 477394754}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemy_Ship_Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6381,7 +6393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 519868486}
   - component: {fileID: 519868487}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemy_Ship_Sprite (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6742,6 +6754,10 @@ PrefabInstance:
     - target: {fileID: 8876929972278761507, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
       propertyPath: m_TagString
       value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876929972278761507, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8876929972278761511, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7219,6 +7235,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice_Health_Pickup (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8231293962344338862, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
 --- !u!4 &579201499 stripped
@@ -7326,7 +7346,7 @@ GameObject:
   - component: {fileID: 579709321}
   - component: {fileID: 579709323}
   - component: {fileID: 579709322}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger4
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -9741,7 +9761,7 @@ GameObject:
   - component: {fileID: 737193005}
   - component: {fileID: 737193004}
   - component: {fileID: 737193003}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: EnemyShip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10069,7 +10089,7 @@ GameObject:
   m_Component:
   - component: {fileID: 765870527}
   - component: {fileID: 765870526}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jump(NEW)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10791,6 +10811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
 --- !u!1 &795970724
@@ -10802,7 +10826,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 795970725}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TextBoxTriggers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11094,7 +11118,7 @@ GameObject:
   - component: {fileID: 810037341}
   - component: {fileID: 810037343}
   - component: {fileID: 810037342}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger1
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -13074,7 +13098,7 @@ GameObject:
   - component: {fileID: 955935662}
   - component: {fileID: 955935664}
   - component: {fileID: 955935663}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger6
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -13593,6 +13617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice_Health_Pickup
       objectReference: {fileID: 0}
+    - target: {fileID: 8231293962344338862, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
 --- !u!1001 &984078101
@@ -14084,7 +14112,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1036830789}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Checkpoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14295,6 +14323,10 @@ PrefabInstance:
     - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
       propertyPath: m_Name
       value: Checkpoint (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
@@ -14575,7 +14607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1082036503}
   - component: {fileID: 1082036504}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemy_Ship_Sprite (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15181,7 +15213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6546771406335989964, guid: 8299fc1d097994d448678778c796d589, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -16.3
+      value: -14.21
       objectReference: {fileID: 0}
     - target: {fileID: 6546771406335989964, guid: 8299fc1d097994d448678778c796d589, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15229,11 +15261,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9133304253921605112, guid: 8299fc1d097994d448678778c796d589, type: 3}
       propertyPath: m_Offset.y
-      value: -4.9653835
+      value: -0.11834645
       objectReference: {fileID: 0}
     - target: {fileID: 9133304253921605112, guid: 8299fc1d097994d448678778c796d589, type: 3}
       propertyPath: m_Size.y
-      value: 23.157108
+      value: 13.463032
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8299fc1d097994d448678778c796d589, type: 3}
@@ -15339,7 +15371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1215259878}
   - component: {fileID: 1215259877}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: 351424__yyw__laughing-just-like-little-yellow-guy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15663,6 +15695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice_Health_Pickup (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8231293962344338862, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
 --- !u!4 &1234979970 stripped
@@ -15723,7 +15759,7 @@ GameObject:
   - component: {fileID: 1244698896}
   - component: {fileID: 1244698898}
   - component: {fileID: 1244698897}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger5
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -16121,7 +16157,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1284919404}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Health Pickups
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17728,6 +17764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
 --- !u!1 &1421817909
@@ -18204,7 +18244,7 @@ GameObject:
   - component: {fileID: 1455258018}
   - component: {fileID: 1455258017}
   - component: {fileID: 1455258016}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTriggerEnd
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -19146,7 +19186,7 @@ GameObject:
   - component: {fileID: 1523031624}
   - component: {fileID: 1523031626}
   - component: {fileID: 1523031625}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger3
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -20066,7 +20106,7 @@ GameObject:
   - component: {fileID: 1592321894}
   - component: {fileID: 1592321896}
   - component: {fileID: 1592321895}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger7
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -21256,6 +21296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
 --- !u!1 &1672930386
@@ -21268,7 +21312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1672930387}
   - component: {fileID: 1672930388}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Death sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22496,6 +22540,10 @@ PrefabInstance:
     - target: {fileID: 8231293962344338862, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
       propertyPath: m_Name
       value: Ice_Health_Pickup (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8231293962344338862, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
@@ -23866,6 +23914,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice_Health_Pickup (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8231293962344338862, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
 --- !u!4 &1925323098 stripped
@@ -24347,7 +24399,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1985736084}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hazards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24924,7 +24976,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2016372570}
   - component: {fileID: 2016372569}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ClippingWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25598,7 +25650,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2082399279}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26043,7 +26095,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2127853886}
   - component: {fileID: 2127853887}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: laserfire01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
