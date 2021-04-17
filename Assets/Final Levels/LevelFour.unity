@@ -5769,7 +5769,7 @@ PrefabInstance:
       objectReference: {fileID: 765870526}
     - target: {fileID: 2761097940060172229, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
       propertyPath: m_WhatIsGround.m_Bits
-      value: 4294967295
+      value: 1559
       objectReference: {fileID: 0}
     - target: {fileID: 2761097940060172229, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
       propertyPath: whatIsLadder.m_Bits
@@ -9738,7 +9738,7 @@ GameObject:
   - component: {fileID: 788202077}
   - component: {fileID: 788202079}
   - component: {fileID: 788202078}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextTrigger5
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -10009,7 +10009,7 @@ GameObject:
   - component: {fileID: 810037341}
   - component: {fileID: 810037343}
   - component: {fileID: 810037342}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextTrigger1
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -13781,7 +13781,7 @@ GameObject:
   - component: {fileID: 1159119485}
   - component: {fileID: 1159119487}
   - component: {fileID: 1159119486}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextTrigger6
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -13937,7 +13937,7 @@ GameObject:
   - component: {fileID: 1199872569}
   - component: {fileID: 1199872571}
   - component: {fileID: 1199872570}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextTrigger2
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -15814,7 +15814,7 @@ GameObject:
   - component: {fileID: 1455258018}
   - component: {fileID: 1455258017}
   - component: {fileID: 1455258016}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextTriggerEnd
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -17492,7 +17492,7 @@ GameObject:
   - component: {fileID: 1677758974}
   - component: {fileID: 1677758976}
   - component: {fileID: 1677758975}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextTrigger3
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -18668,7 +18668,7 @@ GameObject:
   - component: {fileID: 1795697316}
   - component: {fileID: 1795697318}
   - component: {fileID: 1795697317}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextTrigger4
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}

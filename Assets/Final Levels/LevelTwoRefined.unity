@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 3084362}
   - component: {fileID: 3084364}
   - component: {fileID: 3084363}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ComputerTextTrigger11
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -371,7 +371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 26409003}
   - component: {fileID: 26409004}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Enemy_Ship_Sprite (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -769,7 +769,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2761097940060172229, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
       propertyPath: m_WhatIsGround.m_Bits
-      value: 4294967295
+      value: 791
       objectReference: {fileID: 0}
     - target: {fileID: 2761097940066424775, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
       propertyPath: m_SleepingMode
@@ -3027,7 +3027,7 @@ GameObject:
   - component: {fileID: 297320046}
   - component: {fileID: 297320048}
   - component: {fileID: 297320047}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Checkpoint1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -4609,7 +4609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 415378918}
   - component: {fileID: 415378919}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: lava background e
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5367,7 +5367,7 @@ GameObject:
   - component: {fileID: 470450088}
   - component: {fileID: 470450090}
   - component: {fileID: 470450089}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Lava_Anim_F1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5505,7 +5505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 483955756}
   - component: {fileID: 483955757}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5789,7 +5789,7 @@ GameObject:
   - component: {fileID: 550597044}
   - component: {fileID: 550597046}
   - component: {fileID: 550597045}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Lava_Anim_F1 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8043,7 +8043,7 @@ GameObject:
   - component: {fileID: 815848015}
   - component: {fileID: 815848017}
   - component: {fileID: 815848016}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ComputerTextTrigger2
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -11092,7 +11092,7 @@ GameObject:
   - component: {fileID: 1116347405}
   - component: {fileID: 1116347407}
   - component: {fileID: 1116347406}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Lava_Anim_F1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11583,7 +11583,7 @@ GameObject:
   - component: {fileID: 1184817326}
   - component: {fileID: 1184817328}
   - component: {fileID: 1184817327}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Checkpoint1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -11879,7 +11879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1196371059}
   - component: {fileID: 1196371060}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12446,7 +12446,7 @@ GameObject:
   - component: {fileID: 1226097219}
   - component: {fileID: 1226097221}
   - component: {fileID: 1226097220}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Checkpoint1
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -12747,6 +12747,10 @@ PrefabInstance:
     - target: {fileID: 1776438663916282107, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
       propertyPath: m_Name
       value: Rocky_Ground_B (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776438663916282107, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2017783692558092496, guid: c45f99972d54a8d4c9dc8d52b2e872a0, type: 3}
       propertyPath: m_Color.r
@@ -14327,7 +14331,7 @@ GameObject:
   - component: {fileID: 1402230090}
   - component: {fileID: 1402230092}
   - component: {fileID: 1402230091}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Lava_Anim_F1 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15076,7 +15080,7 @@ GameObject:
   - component: {fileID: 1448410968}
   - component: {fileID: 1448410970}
   - component: {fileID: 1448410969}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Checkpoint1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -15232,7 +15236,7 @@ GameObject:
   - component: {fileID: 1454993761}
   - component: {fileID: 1454993763}
   - component: {fileID: 1454993762}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ComputerTextTrigger1
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -18237,7 +18241,7 @@ GameObject:
   - component: {fileID: 1840888235}
   - component: {fileID: 1840888234}
   - component: {fileID: 1840888237}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PC_Ship
   m_TagString: Untagged
   m_Icon: {fileID: 0}

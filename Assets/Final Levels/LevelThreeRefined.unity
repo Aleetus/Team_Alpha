@@ -4401,7 +4401,7 @@ GameObject:
   - component: {fileID: 402578326}
   - component: {fileID: 402578328}
   - component: {fileID: 402578327}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextTrigger2
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -6656,6 +6656,10 @@ PrefabInstance:
       propertyPath: whatIsLadder.m_Bits
       value: 512
       objectReference: {fileID: 0}
+    - target: {fileID: 2761097940060172229, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
+      propertyPath: m_WhatIsGround.m_Bits
+      value: 1559
+      objectReference: {fileID: 0}
     - target: {fileID: 2761097940070204933, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
       propertyPath: m_LocalPosition.x
       value: -153.2
@@ -7127,7 +7131,7 @@ GameObject:
   - component: {fileID: 579709321}
   - component: {fileID: 579709323}
   - component: {fileID: 579709322}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextTrigger4
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -10828,7 +10832,7 @@ GameObject:
   - component: {fileID: 810037341}
   - component: {fileID: 810037343}
   - component: {fileID: 810037342}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextTrigger1
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -12783,7 +12787,7 @@ GameObject:
   - component: {fileID: 955935662}
   - component: {fileID: 955935664}
   - component: {fileID: 955935663}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextTrigger6
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -15258,7 +15262,7 @@ GameObject:
   - component: {fileID: 1244698896}
   - component: {fileID: 1244698898}
   - component: {fileID: 1244698897}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextTrigger5
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -17702,7 +17706,7 @@ GameObject:
   - component: {fileID: 1455258018}
   - component: {fileID: 1455258017}
   - component: {fileID: 1455258016}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextTriggerEnd
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -18613,7 +18617,7 @@ GameObject:
   - component: {fileID: 1523031624}
   - component: {fileID: 1523031626}
   - component: {fileID: 1523031625}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextTrigger3
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -19517,7 +19521,7 @@ GameObject:
   - component: {fileID: 1592321894}
   - component: {fileID: 1592321896}
   - component: {fileID: 1592321895}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextTrigger7
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
