@@ -164,7 +164,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3084361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75803b9e01a4c5648b0d3d1b91afea6a, type: 3}
+  m_Script: {fileID: 11500000, guid: 373c354f12a1e714891fc8a3a209bdea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   UIObject: {fileID: 1949046912}
@@ -9947,7 +9947,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049042041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -507.7, y: 7.7, z: 0}
+  m_LocalPosition: {x: -507.7, y: 12.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1399628254}
@@ -10769,7 +10769,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1098894435}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 382.9, y: 23.12, z: 0}
+  m_LocalPosition: {x: 384.57, y: 21.45, z: 0}
   m_LocalScale: {x: 40, y: 40, z: 1}
   m_Children:
   - {fileID: 1612006614}
@@ -16616,6 +16616,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8876929972278761506, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
+    - {fileID: 8876929972278761505, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
+    - {fileID: 8355571817782183898, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
 --- !u!4 &1612006614 stripped
 Transform:

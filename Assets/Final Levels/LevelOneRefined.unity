@@ -12291,8 +12291,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1423201174}
-  - component: {fileID: 1423201176}
   - component: {fileID: 1423201175}
+  - component: {fileID: 1423201176}
   m_Layer: 5
   m_Name: TextTrigger9
   m_TagString: UITrigger
@@ -12332,7 +12332,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 6.9715652, y: -6.278187}
+  m_Offset: {x: 6.009178, y: -6.278187}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -12343,7 +12343,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 40.740433, y: 17.632374}
+  m_Size: {x: 42.665207, y: 17.632374}
   m_EdgeRadius: 0
 --- !u!114 &1423201176
 MonoBehaviour:
@@ -12354,7 +12354,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1423201173}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75803b9e01a4c5648b0d3d1b91afea6a, type: 3}
+  m_Script: {fileID: 11500000, guid: 373c354f12a1e714891fc8a3a209bdea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   UIObject: {fileID: 1210858000}
@@ -14634,6 +14634,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 8876929972278761507, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8876929972278761511, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.2159998
@@ -14692,6 +14696,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8876929972278761506, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
+    - {fileID: 8876929972278761505, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
+    - {fileID: 8355571817782183898, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
 --- !u!1 &1692632755
 GameObject:
