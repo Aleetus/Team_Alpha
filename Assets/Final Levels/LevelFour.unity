@@ -759,7 +759,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 77465496}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2396,7 +2396,7 @@ GameObject:
   m_Component:
   - component: {fileID: 190999258}
   - component: {fileID: 190999257}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: 95817__dobroide__20100424-bee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2678,88 +2678,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5277058216068251996, guid: 0c33dbf4b8112e94b8a924fc2384380e, type: 3}
   m_PrefabInstance: {fileID: 1111341363}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &215541416
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 215541417}
-  - component: {fileID: 215541418}
-  m_Layer: 10
-  m_Name: Graphics (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &215541417
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 215541416}
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 52, y: 9.1, z: 0}
-  m_LocalScale: {x: 12, y: 12, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1741536603}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
---- !u!212 &215541418
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 215541416}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: ab2b54a966d32a44e95336789b870d2c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 10.24, y: 10.24}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &220412561
 GameObject:
   m_ObjectHideFlags: 0
@@ -2955,7 +2873,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: d2cf77bb977719344b90aa683466dcca, type: 3}
     - target: {fileID: 5986691802900972777, guid: 9584c416624a28a478871b996d9e31a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 326.2
+      value: 327.47
       objectReference: {fileID: 0}
     - target: {fileID: 5986691802900972777, guid: 9584c416624a28a478871b996d9e31a0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3003,7 +2921,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5986691802900972778, guid: 9584c416624a28a478871b996d9e31a0, type: 3}
       propertyPath: detectRange
-      value: 40
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 5986691802900972778, guid: 9584c416624a28a478871b996d9e31a0, type: 3}
       propertyPath: spawnPoint
@@ -3692,7 +3610,7 @@ GameObject:
   - component: {fileID: 327230342}
   - component: {fileID: 327230344}
   - component: {fileID: 327230343}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bees1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4870,7 +4788,7 @@ GameObject:
   m_Component:
   - component: {fileID: 440042382}
   - component: {fileID: 440042381}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shoot_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4997,7 +4915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 442676368}
   - component: {fileID: 442676367}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: 351424__yyw__laughing-just-like-little-yellow-guy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9970,7 +9888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 765870527}
   - component: {fileID: 765870526}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jump(NEW)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11699,6 +11617,10 @@ PrefabInstance:
     - target: {fileID: 3221392018720556228, guid: 28a857207961d0546b07cf00c9a9734b, type: 3}
       propertyPath: m_Name
       value: GrassyPlat_Normal (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3221392018720556228, guid: 28a857207961d0546b07cf00c9a9734b, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3221392018720556231, guid: 28a857207961d0546b07cf00c9a9734b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16861,7 +16783,7 @@ GameObject:
   - component: {fileID: 1408545638}
   - component: {fileID: 1408545640}
   - component: {fileID: 1408545639}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bees1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18923,88 +18845,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7445675334088769305, guid: db0ef0d5921139e478e97d5b68c1dcd6, type: 3}
   m_PrefabInstance: {fileID: 1619363892}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1620289102
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1620289103}
-  - component: {fileID: 1620289104}
-  m_Layer: 10
-  m_Name: Graphics (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1620289103
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620289102}
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -19, y: 9.1, z: 0}
-  m_LocalScale: {x: 12, y: 12, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1741536603}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
---- !u!212 &1620289104
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620289102}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: ab2b54a966d32a44e95336789b870d2c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 10.24, y: 10.24}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1626252959
 GameObject:
   m_ObjectHideFlags: 0
@@ -19569,7 +19409,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1672930387}
   - component: {fileID: 1672930388}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Death sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20588,7 +20428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8608164313196389015, guid: 8a173c9ff97c2e044894065964f8096f, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 8608164313196389015, guid: 8a173c9ff97c2e044894065964f8096f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -22540,7 +22380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1964992349}
   - component: {fileID: 1964992350}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jungle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23541,14 +23381,14 @@ Transform:
   - {fileID: 1643017856}
   - {fileID: 1009597972}
   - {fileID: 10404892}
+  - {fileID: 706313511}
   - {fileID: 1134054997}
   - {fileID: 1150861160}
   - {fileID: 200894739}
   - {fileID: 80610752}
-  - {fileID: 706313511}
   - {fileID: 1532845614}
-  - {fileID: 1728044124}
   - {fileID: 991601453}
+  - {fileID: 1728044124}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24030,7 +23870,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2127853886}
   - component: {fileID: 2127853887}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: laserfire01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
