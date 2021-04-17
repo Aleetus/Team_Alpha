@@ -1897,9 +1897,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0022298337, y: 0.009557343}
+  m_Offset: {x: 0.002229818, y: 0.009557343}
   serializedVersion: 2
-  m_Radius: 0.2466793
+  m_Radius: 0.31334585
 --- !u!4 &466808452
 Transform:
   m_ObjectHideFlags: 0
@@ -2577,9 +2577,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.05130196, y: 0.01855784}
+  m_Offset: {x: -0.051301956, y: 0.018557835}
   serializedVersion: 2
-  m_Radius: 0.22348796
+  m_Radius: 0.32348785
 --- !u!212 &634356959
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2878,7 +2878,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.054174423, y: 0.024928411}
   serializedVersion: 2
-  m_Radius: 0.23197746
+  m_Radius: 0.39864412
 --- !u!212 &666449278
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6579,9 +6579,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.002229844, y: -0.01051678}
+  m_Offset: {x: 0.002229839, y: -0.010516771}
   serializedVersion: 2
-  m_Radius: 0.26764327
+  m_Radius: 0.31764325
 --- !u!212 &1599627396
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7645,9 +7645,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.002229844, y: -0.01051678}
+  m_Offset: {x: 0.0022297965, y: -0.010516776}
   serializedVersion: 2
-  m_Radius: 0.26764327
+  m_Radius: 0.3787544
 --- !u!212 &1859298996
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9261,19 +9261,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152573, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_Offset.x
-      value: -0.015199244
+      value: 0.0043351953
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152573, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_Size.x
-      value: 0.7067994
+      value: 0.82166314
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152573, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_Offset.y
-      value: 0.065181494
+      value: 0.07582665
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152573, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_Size.y
-      value: 0.7931361
+      value: 0.91408324
       objectReference: {fileID: 0}
     - target: {fileID: 285987444216152574, guid: d8d06787462b7034db4a73800a1117e8, type: 3}
       propertyPath: m_BodyType
