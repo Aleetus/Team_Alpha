@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HealthPickup : MonoBehaviour
 {
+    public AudioSource healthSound;
 
     public static float healthBoost = 20f;
 
@@ -11,6 +12,7 @@ public class HealthPickup : MonoBehaviour
     {
         if (collider.gameObject.tag.Equals("Player"))
         {
+            healthSound.Play();
             gameObject.SetActive(false);
 
             Invoke("RespawnHealthBoost", 10);
