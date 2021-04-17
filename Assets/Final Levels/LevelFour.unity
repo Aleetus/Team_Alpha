@@ -1671,7 +1671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 161508947}
   - component: {fileID: 161508948}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Jungle_Level_Borders (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3244,7 +3244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 332820026}
   - component: {fileID: 332820027}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Jungle_Level_Borders (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3889,7 +3889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 397930705}
   - component: {fileID: 397930706}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Jungle_Level_Borders (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5913,7 +5913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 571908525}
   - component: {fileID: 571908526}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Jungle_Level_Borders (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11394,7 +11394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 919687968}
   - component: {fileID: 919687969}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Jungle_Level_Borders (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11850,7 +11850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 983409545}
   - component: {fileID: 983409546}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Jungle_Level_Borders (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12979,7 +12979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1075370515}
   - component: {fileID: 1075370516}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Jungle_Level_Borders (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15455,7 +15455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1371394702}
   - component: {fileID: 1371394703}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Jungle_Level_Borders (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17057,7 +17057,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1649872738}
   - component: {fileID: 1649872739}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Jungle_Level_Borders (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17563,7 +17563,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1683215181}
   - component: {fileID: 1683215182}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Jungle_Level_Borders (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
