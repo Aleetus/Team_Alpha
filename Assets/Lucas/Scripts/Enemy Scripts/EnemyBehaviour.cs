@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EnemyBehaviour : MonoBehaviour
 {
+    public AudioSource hitSound;
+    
     public float hitPoints, respawnTimer;
 
     [SerializeField] private float maxHitPoints = 100;
@@ -43,6 +45,7 @@ public class EnemyBehaviour : MonoBehaviour
         {
             Debug.Log("Enemy Damaged");
             hitPoints -= Projectile.p_Damage;
+            hitSound.Play();
             //Debug.Log("Enemy damaged");
             
         }

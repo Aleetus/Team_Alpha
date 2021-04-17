@@ -377,3 +377,60 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62c342cf34bc48e4891ca7921de3c1ed, type: 3}
+--- !u!1001 &7269069855763292774
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7269069855645737029, guid: 52414a0ae5e651b4eacb263c4d9fd6fe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269069855645737029, guid: 52414a0ae5e651b4eacb263c4d9fd6fe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269069855645737029, guid: 52414a0ae5e651b4eacb263c4d9fd6fe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269069855645737029, guid: 52414a0ae5e651b4eacb263c4d9fd6fe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269069855645737029, guid: 52414a0ae5e651b4eacb263c4d9fd6fe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269069855645737029, guid: 52414a0ae5e651b4eacb263c4d9fd6fe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269069855645737029, guid: 52414a0ae5e651b4eacb263c4d9fd6fe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269069855645737029, guid: 52414a0ae5e651b4eacb263c4d9fd6fe, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269069855645737029, guid: 52414a0ae5e651b4eacb263c4d9fd6fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269069855645737029, guid: 52414a0ae5e651b4eacb263c4d9fd6fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269069855645737029, guid: 52414a0ae5e651b4eacb263c4d9fd6fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269069855645737030, guid: 52414a0ae5e651b4eacb263c4d9fd6fe, type: 3}
+      propertyPath: m_Name
+      value: Snake_Pit_Anim_Frame_01
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 52414a0ae5e651b4eacb263c4d9fd6fe, type: 3}
