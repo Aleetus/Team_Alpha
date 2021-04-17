@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3671657715291351952}
   - component: {fileID: 8608164313196389021}
   m_Layer: 0
-  m_Name: Wasp_Enemy
+  m_Name: Wasp_Chase_Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

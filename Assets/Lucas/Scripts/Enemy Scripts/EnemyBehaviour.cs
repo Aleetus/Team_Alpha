@@ -34,6 +34,7 @@ public class EnemyBehaviour : MonoBehaviour
         hitPoints = maxHitPoints;
         gameObject.SetActive(true);
         Debug.Log("Enemy Respawn!!!");
+        //TurretFish.ShootPlayer();
     }
 
     void OnCollisionEnter2D(Collision2D collision)
