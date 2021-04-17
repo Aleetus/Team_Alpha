@@ -9738,7 +9738,7 @@ GameObject:
   - component: {fileID: 788202077}
   - component: {fileID: 788202079}
   - component: {fileID: 788202078}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger5
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -9877,7 +9877,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 795970725}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TextBoxTriggers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10009,7 +10009,7 @@ GameObject:
   - component: {fileID: 810037341}
   - component: {fileID: 810037343}
   - component: {fileID: 810037342}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger1
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -12386,7 +12386,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049042041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 54.4, y: 89.7, z: 0}
+  m_LocalPosition: {x: -431, y: 42, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1014177739}
@@ -13781,7 +13781,7 @@ GameObject:
   - component: {fileID: 1159119485}
   - component: {fileID: 1159119487}
   - component: {fileID: 1159119486}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger6
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -13937,7 +13937,7 @@ GameObject:
   - component: {fileID: 1199872569}
   - component: {fileID: 1199872571}
   - component: {fileID: 1199872570}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger2
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -15814,7 +15814,7 @@ GameObject:
   - component: {fileID: 1455258018}
   - component: {fileID: 1455258017}
   - component: {fileID: 1455258016}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTriggerEnd
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -17216,7 +17216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1661211896}
   - component: {fileID: 1661211895}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jungle_Level_Borders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17492,7 +17492,7 @@ GameObject:
   - component: {fileID: 1677758974}
   - component: {fileID: 1677758976}
   - component: {fileID: 1677758975}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger3
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -17645,7 +17645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1692748906}
   - component: {fileID: 1692748907}
-  m_Layer: 10
+  m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18668,7 +18668,7 @@ GameObject:
   - component: {fileID: 1795697316}
   - component: {fileID: 1795697318}
   - component: {fileID: 1795697317}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger4
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -19031,7 +19031,7 @@ GameObject:
   - component: {fileID: 1840888235}
   - component: {fileID: 1840888234}
   - component: {fileID: 1840888237}
-  m_Layer: 10
+  m_Layer: 5
   m_Name: PC_Ship
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22113,7 +22113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2141681332}
   - component: {fileID: 2141681331}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jungle_Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
