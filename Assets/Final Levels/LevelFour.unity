@@ -3165,6 +3165,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0ebd38d92f1522418f470b43289587b, type: 3}
+--- !u!1 &322312288 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8948619605110441370, guid: 8a173c9ff97c2e044894065964f8096f, type: 3}
+  m_PrefabInstance: {fileID: 1051602647}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &322312291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322312288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a512905908314b43b3536a1bd31a407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPoints: 20
+  respawnTimer: 0
+  maxHitPoints: 20
+--- !u!58 &322312292
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322312288}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.000015258789}
+  serializedVersion: 2
+  m_Radius: 0.16000004
 --- !u!1001 &326314794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5590,6 +5626,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyBoss
       objectReference: {fileID: 0}
+    - target: {fileID: 8876929972278761507, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8876929972278761511, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.4568
@@ -5646,7 +5686,8 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.14380133
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8876929972278761506, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
 --- !u!1001 &565588214
 PrefabInstance:
@@ -12416,6 +12457,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4723132132334902569, guid: 8a173c9ff97c2e044894065964f8096f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8608164313196389015, guid: 8a173c9ff97c2e044894065964f8096f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -449.28
@@ -12460,9 +12505,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8608164313196389018, guid: 8a173c9ff97c2e044894065964f8096f, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.039978027
+      objectReference: {fileID: 0}
+    - target: {fileID: 8608164313196389018, guid: 8a173c9ff97c2e044894065964f8096f, type: 3}
+      propertyPath: m_Radius
+      value: 6.7051697
+      objectReference: {fileID: 0}
     - target: {fileID: 8608164313196389019, guid: 8a173c9ff97c2e044894065964f8096f, type: 3}
       propertyPath: m_Name
       value: Wasp_Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8608164313196389021, guid: 8a173c9ff97c2e044894065964f8096f, type: 3}
+      propertyPath: hitPoints
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8608164313196389021, guid: 8a173c9ff97c2e044894065964f8096f, type: 3}
+      propertyPath: maxHitPoints
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948619605110441370, guid: 8a173c9ff97c2e044894065964f8096f, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a173c9ff97c2e044894065964f8096f, type: 3}
