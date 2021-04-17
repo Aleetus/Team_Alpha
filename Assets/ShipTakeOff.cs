@@ -7,6 +7,7 @@ public class ShipTakeOff : MonoBehaviour
     public GameObject enemyShip;
     public float speed;
     public bool isFlying;
+    public AudioSource alienLaugh;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +29,7 @@ public class ShipTakeOff : MonoBehaviour
         if (other.tag == "Player")
         {
             isFlying = true;
+            alienLaugh.Play();
         }
     }
 
