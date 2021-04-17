@@ -793,15 +793,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7462289487654859874, guid: b86d2a42e6ab85641b255792db8bc3fd, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7462289487654859874, guid: b86d2a42e6ab85641b255792db8bc3fd, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7462289487654859874, guid: b86d2a42e6ab85641b255792db8bc3fd, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7462289488113786273, guid: b86d2a42e6ab85641b255792db8bc3fd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7462289488113786287, guid: b86d2a42e6ab85641b255792db8bc3fd, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
@@ -858,6 +862,14 @@ PrefabInstance:
     - target: {fileID: 7462289488230659511, guid: b86d2a42e6ab85641b255792db8bc3fd, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7462289488486760255, guid: b86d2a42e6ab85641b255792db8bc3fd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -143
+      objectReference: {fileID: 0}
+    - target: {fileID: 7462289488486760255, guid: b86d2a42e6ab85641b255792db8bc3fd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 25.8
       objectReference: {fileID: 0}
     - target: {fileID: 7462289488545815267, guid: b86d2a42e6ab85641b255792db8bc3fd, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
@@ -939,13 +951,21 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7462289488568818883, guid: b86d2a42e6ab85641b255792db8bc3fd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 17.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7462289488907438412, guid: b86d2a42e6ab85641b255792db8bc3fd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7462289489187678941, guid: b86d2a42e6ab85641b255792db8bc3fd, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7462289489187678941, guid: b86d2a42e6ab85641b255792db8bc3fd, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8227580023584376514, guid: b86d2a42e6ab85641b255792db8bc3fd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size

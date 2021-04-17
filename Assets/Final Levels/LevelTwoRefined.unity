@@ -7959,6 +7959,22 @@ PrefabInstance:
       propertyPath: sceneToLoad
       value: LevelTwo
       objectReference: {fileID: 0}
+    - target: {fileID: 7163367638621482335, guid: 3cf83084fdd88684480fdee74dc8841e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7163367639857687699, guid: 3cf83084fdd88684480fdee74dc8841e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7163367640350071596, guid: 3cf83084fdd88684480fdee74dc8841e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -162.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7163367640455264690, guid: 3cf83084fdd88684480fdee74dc8841e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7342782503552831528, guid: 3cf83084fdd88684480fdee74dc8841e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 544.63226
