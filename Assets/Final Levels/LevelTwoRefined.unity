@@ -763,6 +763,10 @@ PrefabInstance:
       propertyPath: jumpSound
       value: 
       objectReference: {fileID: 209140029}
+    - target: {fileID: 2761097940060172229, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
+      propertyPath: whatIsLadder.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 2761097940070204933, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
       propertyPath: m_LocalPosition.x
       value: -550.26
