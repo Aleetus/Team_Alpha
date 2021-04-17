@@ -135,4 +135,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fl_speed: 5
-  fl_range: 20
+  fl_range: 50

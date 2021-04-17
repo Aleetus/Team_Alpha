@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desert_Health_Pickup (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4022616720871592521, guid: 19c004baa247b7245852fbb3aa84a854, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4022616720871592564, guid: 19c004baa247b7245852fbb3aa84a854, type: 3}
       propertyPath: m_LocalPosition.x
       value: 234.71
@@ -200,6 +204,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2082399279}
     m_Modifications:
+    - target: {fileID: 373752369681213642, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1278650353318119619, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.31
@@ -207,6 +215,10 @@ PrefabInstance:
     - target: {fileID: 1278650353318119619, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703240852649853, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8869703240880724374, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
@@ -264,6 +276,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving&Shooting_Desert_Enemy (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8869703240880724375, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703241072959466, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8869703241072959477, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.58
@@ -271,6 +291,10 @@ PrefabInstance:
     - target: {fileID: 8869703242009217009, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703242009217014, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
@@ -295,7 +319,7 @@ GameObject:
   - component: {fileID: 16054591}
   - component: {fileID: 16054593}
   - component: {fileID: 16054592}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Checkpoint1
   m_TagString: UITrigger
   m_Icon: {fileID: 0}
@@ -500,6 +524,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
 --- !u!1001 &35260032
@@ -638,13 +666,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_Desert_Enemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 600890418960584059, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 600890419829742793, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 600890420124541065, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.57
       objectReference: {fileID: 0}
+    - target: {fileID: 600890420124541066, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 600890420267881053, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 600890420267881054, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
@@ -742,6 +786,10 @@ PrefabInstance:
     - target: {fileID: 1685526195424788067, guid: d808c4d72e3f83444a21be0e8e46914e, type: 3}
       propertyPath: m_Name
       value: checkpoint2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685526195424788067, guid: d808c4d72e3f83444a21be0e8e46914e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d808c4d72e3f83444a21be0e8e46914e, type: 3}
@@ -1471,6 +1519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DesertPlat_Crumbling (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7526698558230197354, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7526698558230197355, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
       propertyPath: respawnPlatform
       value: 1
@@ -1910,6 +1962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
 --- !u!1 &141512722
@@ -2227,7 +2283,7 @@ GameObject:
   - component: {fileID: 166565973}
   - component: {fileID: 166565975}
   - component: {fileID: 166565974}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger2
   m_TagString: UITrigger
   m_Icon: {fileID: 0}
@@ -2384,7 +2440,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 188348294}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hazards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2568,7 +2624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4551780164949965230, guid: 5b4847c07bd781c4cb8c5cc3cd346aa5, type: 3}
       propertyPath: m_SortingOrder
-      value: -3
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 4551780164949965230, guid: 5b4847c07bd781c4cb8c5cc3cd346aa5, type: 3}
       propertyPath: m_Color.r
@@ -3041,7 +3097,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 351564614}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TextBoxTriggers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3086,7 +3142,7 @@ GameObject:
   - component: {fileID: 352187846}
   - component: {fileID: 352187848}
   - component: {fileID: 352187847}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Checkpoint3
   m_TagString: UITrigger
   m_Icon: {fileID: 0}
@@ -3365,13 +3421,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_Desert_Enemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 600890418960584059, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 600890419829742793, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 600890420124541065, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.68
       objectReference: {fileID: 0}
+    - target: {fileID: 600890420124541066, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 600890420267881053, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 600890420267881054, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
@@ -3386,7 +3458,7 @@ GameObject:
   - component: {fileID: 372852437}
   - component: {fileID: 372852439}
   - component: {fileID: 372852438}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger6
   m_TagString: UITrigger
   m_Icon: {fileID: 0}
@@ -3462,7 +3534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 375446159}
   - component: {fileID: 375446160}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemy_Ship_Sprite (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4165,13 +4237,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_Desert_Enemy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 600890418960584059, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 600890419829742793, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 600890420124541065, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.05
       objectReference: {fileID: 0}
+    - target: {fileID: 600890420124541066, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 600890420267881053, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 600890420267881054, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
@@ -4621,6 +4709,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DesertPlat_Crumbling (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7526698558230197354, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7526698558230197355, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
       propertyPath: respawnPlatform
       value: 1
@@ -4705,7 +4797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 551881313}
   - component: {fileID: 551881314}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemy_Ship_Sprite (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4787,6 +4879,10 @@ PrefabInstance:
     - target: {fileID: 7526698558230197354, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
       propertyPath: m_Name
       value: DesertPlat_Crumbling (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526698558230197354, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7526698558230197355, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
       propertyPath: respawnPlatform
@@ -5204,6 +5300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike_Strip (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
 --- !u!1001 &590581683
@@ -5276,6 +5376,10 @@ PrefabInstance:
     - target: {fileID: 1685526195424788067, guid: d808c4d72e3f83444a21be0e8e46914e, type: 3}
       propertyPath: m_Name
       value: checkpoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685526195424788067, guid: d808c4d72e3f83444a21be0e8e46914e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d808c4d72e3f83444a21be0e8e46914e, type: 3}
@@ -5669,6 +5773,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2082399279}
     m_Modifications:
+    - target: {fileID: 373752369681213642, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1278650353318119619, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.29
@@ -5676,6 +5784,10 @@ PrefabInstance:
     - target: {fileID: 1278650353318119619, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.048
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703240852649853, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8869703240880724374, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5733,6 +5845,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving&Shooting_Desert_Enemy (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8869703240880724375, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703241072959466, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8869703241072959477, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.05
@@ -5740,6 +5860,10 @@ PrefabInstance:
     - target: {fileID: 8869703242009217009, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703242009217014, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
@@ -5917,7 +6041,7 @@ GameObject:
   m_Component:
   - component: {fileID: 659789285}
   - component: {fileID: 659789286}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Earth_theme_RPG_village
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6082,6 +6206,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DesertPlat_Crumbling (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7526698558230197354, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7526698558230197355, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
       propertyPath: respawnPlatform
       value: 1
@@ -6172,7 +6300,7 @@ GameObject:
   - component: {fileID: 668457774}
   - component: {fileID: 668457776}
   - component: {fileID: 668457775}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger1
   m_TagString: UITrigger
   m_Icon: {fileID: 0}
@@ -6327,7 +6455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 676151311}
   - component: {fileID: 676151312}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6384,6 +6512,10 @@ PrefabInstance:
     - target: {fileID: 7526698558230197354, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
       propertyPath: m_Name
       value: DesertPlat_Crumbling (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526698558230197354, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7526698558230197358, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
       propertyPath: m_Color.r
@@ -6470,6 +6602,10 @@ PrefabInstance:
     - target: {fileID: 7526698558230197354, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
       propertyPath: m_Name
       value: DesertPlat_Crumbling (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526698558230197354, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7526698558230197355, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
       propertyPath: respawnPlatform
@@ -6686,6 +6822,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2082399279}
     m_Modifications:
+    - target: {fileID: 373752369681213642, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1278650353318119619, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.026
@@ -6713,6 +6853,10 @@ PrefabInstance:
     - target: {fileID: 8869703240852649852, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.5343575
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703240852649853, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8869703240880724374, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6770,6 +6914,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving&Shooting_Desert_Enemy (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8869703240880724375, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703241072959466, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8869703241072959477, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.914
@@ -6785,6 +6937,10 @@ PrefabInstance:
     - target: {fileID: 8869703242009217009, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.308
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703242009217014, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8869703240852649855, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
@@ -6805,7 +6961,7 @@ GameObject:
   - component: {fileID: 763095977}
   - component: {fileID: 763095979}
   - component: {fileID: 763095978}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger5 (1)
   m_TagString: UITrigger
   m_Icon: {fileID: 0}
@@ -6934,13 +7090,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_Desert_Enemy (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 600890418960584059, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 600890419829742793, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 600890420124541065, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.91
       objectReference: {fileID: 0}
+    - target: {fileID: 600890420124541066, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 600890420267881053, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 600890420267881054, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
@@ -7039,7 +7211,7 @@ GameObject:
   - component: {fileID: 790143655}
   - component: {fileID: 790143657}
   - component: {fileID: 790143656}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Quicksand_Anim_F1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7054,8 +7226,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 790143654}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 91.42836, y: 31.454525, z: 0}
-  m_LocalScale: {x: 189.11888, y: 99.28863, z: 1}
+  m_LocalPosition: {x: 96.711, y: 31.1, z: 0}
+  m_LocalScale: {x: 159.03285, y: 99.28863, z: 1}
   m_Children: []
   m_Father: {fileID: 949589016}
   m_RootOrder: 16
@@ -7118,7 +7290,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -4
   m_Sprite: {fileID: 21300000, guid: 7f2c049f25370e34da3f5dabe27a9ff1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7141,7 +7313,7 @@ GameObject:
   - component: {fileID: 794646731}
   - component: {fileID: 794646733}
   - component: {fileID: 794646732}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Checkpoint2
   m_TagString: UITrigger
   m_Icon: {fileID: 0}
@@ -7293,6 +7465,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2082399279}
     m_Modifications:
+    - target: {fileID: 373752369681213642, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1278650353318119619, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.29
@@ -7300,6 +7476,10 @@ PrefabInstance:
     - target: {fileID: 1278650353318119619, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.048
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703240852649853, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8869703240880724374, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7357,6 +7537,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving&Shooting_Desert_Enemy (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8869703240880724375, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703241072959466, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8869703241072959477, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.05
@@ -7364,6 +7552,10 @@ PrefabInstance:
     - target: {fileID: 8869703242009217009, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703242009217014, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
@@ -7648,6 +7840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
 --- !u!4 &822803026 stripped
@@ -7709,6 +7905,10 @@ PrefabInstance:
     - target: {fileID: 7526698558230197354, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
       propertyPath: m_Name
       value: DesertPlat_Crumbling (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526698558230197354, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7526698558230197358, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
       propertyPath: m_Color.r
@@ -7881,6 +8081,10 @@ PrefabInstance:
     - target: {fileID: 4022616720871592521, guid: 19c004baa247b7245852fbb3aa84a854, type: 3}
       propertyPath: m_Name
       value: Desert_Health_Pickup (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4022616720871592521, guid: 19c004baa247b7245852fbb3aa84a854, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4022616720871592564, guid: 19c004baa247b7245852fbb3aa84a854, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8073,13 +8277,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_Desert_Enemy (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 600890418960584059, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 600890419829742793, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 600890420124541065, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.3
       objectReference: {fileID: 0}
+    - target: {fileID: 600890420124541066, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 600890420267881053, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 600890420267881054, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
@@ -8152,6 +8372,10 @@ PrefabInstance:
     - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
       propertyPath: m_Name
       value: Checkpoint (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
@@ -8571,6 +8795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike_Strip (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
 --- !u!4 &994242145 stripped
@@ -8585,6 +8813,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2082399279}
     m_Modifications:
+    - target: {fileID: 373752369681213642, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1278650353318119619, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.026
@@ -8608,6 +8840,10 @@ PrefabInstance:
     - target: {fileID: 8869703240852649852, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.5343575
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703240852649853, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8869703240880724374, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8665,6 +8901,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving&Shooting_Desert_Enemy (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8869703240880724375, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703241072959466, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8869703241072959477, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.914
@@ -8680,6 +8924,10 @@ PrefabInstance:
     - target: {fileID: 8869703242009217009, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.308
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703242009217014, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
@@ -8755,6 +9003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike_Strip (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
 --- !u!4 &1007414045 stripped
@@ -8771,7 +9023,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1010651275}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HealthPickUps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8936,6 +9188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike_Strip (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
 --- !u!4 &1026998431 stripped
@@ -8953,7 +9209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1032320645}
   - component: {fileID: 1032320646}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shoot_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9555,6 +9811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desert_Health_Pickup
       objectReference: {fileID: 0}
+    - target: {fileID: 4022616720871592521, guid: 19c004baa247b7245852fbb3aa84a854, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4022616720871592564, guid: 19c004baa247b7245852fbb3aa84a854, type: 3}
       propertyPath: m_LocalPosition.x
       value: 129.48
@@ -10148,7 +10408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1105281332}
   - component: {fileID: 1105281331}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: 351424__yyw__laughing-just-like-little-yellow-guy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11006,7 +11266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1266144302}
   - component: {fileID: 1266144301}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ClippingWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12015,6 +12275,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike_Strip (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
 --- !u!4 &1389795831 stripped
@@ -12038,7 +12302,7 @@ GameObject:
   - component: {fileID: 1401915801}
   - component: {fileID: 1401915803}
   - component: {fileID: 1401915802}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger3
   m_TagString: UITrigger
   m_Icon: {fileID: 0}
@@ -12175,6 +12439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DEATH_floor
       objectReference: {fileID: 0}
+    - target: {fileID: 4020015031657586791, guid: 9d4aa3623b4c5174b9eeb05ee3f2af35, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d4aa3623b4c5174b9eeb05ee3f2af35, type: 3}
 --- !u!4 &1409438778 stripped
@@ -12308,7 +12576,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2761097940060172229, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
       propertyPath: m_WhatIsGround.m_Bits
-      value: 1559
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2761097940070204933, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12424,7 +12692,7 @@ GameObject:
   - component: {fileID: 1423201174}
   - component: {fileID: 1423201175}
   - component: {fileID: 1423201176}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger9
   m_TagString: UITrigger
   m_Icon: {fileID: 0}
@@ -12720,7 +12988,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1477220426}
   - component: {fileID: 1477220425}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jingle_Lose_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12962,7 +13230,7 @@ GameObject:
   - component: {fileID: 1526088954}
   - component: {fileID: 1526088956}
   - component: {fileID: 1526088955}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger5
   m_TagString: UITrigger
   m_Icon: {fileID: 0}
@@ -13189,7 +13457,7 @@ GameObject:
   - component: {fileID: 1535245723}
   - component: {fileID: 1535245725}
   - component: {fileID: 1535245724}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger8
   m_TagString: UITrigger
   m_Icon: {fileID: 0}
@@ -13264,7 +13532,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1540357041}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Checkpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13347,13 +13615,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_Desert_Enemy (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 600890418960584059, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 600890419829742793, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 600890420124541065, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.48
       objectReference: {fileID: 0}
+    - target: {fileID: 600890420124541066, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 600890420267881053, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 600890420267881054, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
@@ -13731,7 +14015,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1603542372}
   - component: {fileID: 1603542373}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hero_Death_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14013,6 +14297,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2082399279}
     m_Modifications:
+    - target: {fileID: 373752369681213642, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1278650353318119619, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.04
@@ -14020,6 +14308,10 @@ PrefabInstance:
     - target: {fileID: 1278650353318119619, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.244
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703240852649853, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8869703240880724374, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14077,6 +14369,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving&Shooting_Desert_Enemy (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8869703240880724375, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703241072959466, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8869703241072959477, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.98
@@ -14084,6 +14384,10 @@ PrefabInstance:
     - target: {fileID: 8869703242009217009, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869703242009217014, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3572ffff887238e4e9de398a1dfb4444, type: 3}
@@ -14233,6 +14537,10 @@ PrefabInstance:
     - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_Name
       value: Spike_Strip (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
@@ -14570,7 +14878,7 @@ GameObject:
   - component: {fileID: 1677636153}
   - component: {fileID: 1677636155}
   - component: {fileID: 1677636154}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger7
   m_TagString: UITrigger
   m_Icon: {fileID: 0}
@@ -15169,6 +15477,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DesertPlat_Crumbling (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7526698558230197354, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7526698558230197355, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
       propertyPath: respawnPlatform
       value: 1
@@ -15309,6 +15621,10 @@ PrefabInstance:
     - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_Name
       value: Spike_Strip (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
@@ -15476,7 +15792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1795629212}
   - component: {fileID: 1795629213}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemy_Ship_Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15610,6 +15926,10 @@ PrefabInstance:
     - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_Name
       value: Spike_Strip (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
@@ -15870,7 +16190,7 @@ GameObject:
   - component: {fileID: 1840888235}
   - component: {fileID: 1840888234}
   - component: {fileID: 1840888237}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PC_Ship
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16081,6 +16401,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desert_Health_Pickup (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4022616720871592521, guid: 19c004baa247b7245852fbb3aa84a854, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4022616720871592564, guid: 19c004baa247b7245852fbb3aa84a854, type: 3}
       propertyPath: m_LocalPosition.x
       value: 115.77
@@ -16212,6 +16536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike_Strip (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
 --- !u!4 &1872812478 stripped
@@ -16234,7 +16562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1876305492}
   - component: {fileID: 1876305493}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jump(NEW)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16366,6 +16694,10 @@ PrefabInstance:
     - target: {fileID: 7526698558230197354, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
       propertyPath: m_Name
       value: DesertPlat_Crumbling (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526698558230197354, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7526698558230197355, guid: c08b0ffa238d09a43a2342f4e4f262aa, type: 3}
       propertyPath: respawnPlatform
@@ -16528,7 +16860,7 @@ GameObject:
   - component: {fileID: 1926425878}
   - component: {fileID: 1926425880}
   - component: {fileID: 1926425879}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger4
   m_TagString: UITrigger
   m_Icon: {fileID: 0}
@@ -16649,13 +16981,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_Desert_Enemy (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 600890418960584059, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 600890419829742793, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 600890420124541065, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.1
       objectReference: {fileID: 0}
+    - target: {fileID: 600890420124541066, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 600890420267881053, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 600890420267881054, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3aed8ffb8a690543bc97802bdd3e1e1, type: 3}
@@ -16886,6 +17234,10 @@ PrefabInstance:
     - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_Name
       value: Spike_Strip (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
@@ -17158,6 +17510,10 @@ PrefabInstance:
     - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_Name
       value: Spike_Strip (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
@@ -17447,6 +17803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: checkpoint3
       objectReference: {fileID: 0}
+    - target: {fileID: 1685526195424788067, guid: d808c4d72e3f83444a21be0e8e46914e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d808c4d72e3f83444a21be0e8e46914e, type: 3}
 --- !u!1 &1988782109
@@ -17616,7 +17976,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1998356424}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18018,7 +18378,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2082399279}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18283,7 +18643,7 @@ GameObject:
   - component: {fileID: 2105992579}
   - component: {fileID: 2105992578}
   - component: {fileID: 2105992577}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: EnemyShip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18592,6 +18952,10 @@ PrefabInstance:
     - target: {fileID: 4022616720871592521, guid: 19c004baa247b7245852fbb3aa84a854, type: 3}
       propertyPath: m_Name
       value: Desert_Health_Pickup (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4022616720871592521, guid: 19c004baa247b7245852fbb3aa84a854, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4022616720871592564, guid: 19c004baa247b7245852fbb3aa84a854, type: 3}
       propertyPath: m_LocalPosition.x

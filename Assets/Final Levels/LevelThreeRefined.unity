@@ -341,6 +341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1001 &6432195
@@ -1049,6 +1053,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 15.14
       objectReference: {fileID: 0}
+    - target: {fileID: 1863098223711405215, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1863098223848308770, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 79.66
@@ -1105,9 +1113,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_Ice_Enemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1863098223848308771, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098223936763072, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1863098224849648612, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098224849648613, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
@@ -1263,6 +1283,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -1421,6 +1445,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DEATH_floor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4020015031657586791, guid: 9d4aa3623b4c5174b9eeb05ee3f2af35, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d4aa3623b4c5174b9eeb05ee3f2af35, type: 3}
 --- !u!1001 &73988370
@@ -1509,7 +1537,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 77465496}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1607,6 +1635,10 @@ PrefabInstance:
     - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_Name
       value: Spike_Strip (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
@@ -1707,6 +1739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &92787184 stripped
@@ -1800,6 +1836,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -1979,6 +2019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1001 &121895176
@@ -2007,6 +2051,10 @@ PrefabInstance:
     - target: {fileID: 4300911409161332041, guid: 8299fc1d097994d448678778c796d589, type: 3}
       propertyPath: m_Name
       value: Ice_Ground_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300911409161332041, guid: 8299fc1d097994d448678778c796d589, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6546771406335989964, guid: 8299fc1d097994d448678778c796d589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2149,6 +2197,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -2322,6 +2374,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -2566,6 +2622,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -2813,6 +2873,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1001 &212305509
@@ -2869,6 +2933,10 @@ PrefabInstance:
     - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
       propertyPath: m_Name
       value: Checkpoint (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
@@ -3027,6 +3095,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DEATH_floor
       objectReference: {fileID: 0}
+    - target: {fileID: 4020015031657586791, guid: 9d4aa3623b4c5174b9eeb05ee3f2af35, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d4aa3623b4c5174b9eeb05ee3f2af35, type: 3}
 --- !u!1001 &268090784
@@ -3110,6 +3182,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 3.3
       objectReference: {fileID: 0}
+    - target: {fileID: 1863098223711405215, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1863098223848308770, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 364.05
@@ -3166,9 +3242,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_Ice_Enemy (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1863098223848308771, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098223936763072, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1863098224849648612, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098224849648613, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
@@ -3263,6 +3351,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -3494,6 +3586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint
       objectReference: {fileID: 0}
+    - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
 --- !u!1001 &327695493
@@ -3582,6 +3678,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -3691,6 +3791,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -3861,6 +3965,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1001 &368146660
@@ -3933,6 +4041,10 @@ PrefabInstance:
     - target: {fileID: 8231293962344338862, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
       propertyPath: m_Name
       value: Ice_Health_Pickup (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8231293962344338862, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
@@ -4096,6 +4208,10 @@ PrefabInstance:
     - target: {fileID: 4020015031657586791, guid: 9d4aa3623b4c5174b9eeb05ee3f2af35, type: 3}
       propertyPath: m_Name
       value: DEATH_floor (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020015031657586791, guid: 9d4aa3623b4c5174b9eeb05ee3f2af35, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d4aa3623b4c5174b9eeb05ee3f2af35, type: 3}
@@ -4284,7 +4400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 398345449}
   - component: {fileID: 398345450}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Ice theme_seven_and_eight_7-8_combined
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4412,7 +4528,7 @@ GameObject:
   - component: {fileID: 402578326}
   - component: {fileID: 402578328}
   - component: {fileID: 402578327}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger2
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -4548,6 +4664,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1 &406619098
@@ -4662,6 +4782,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1001 &414850128
@@ -4738,6 +4862,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -5049,7 +5177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 440042382}
   - component: {fileID: 440042381}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shoot_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5640,6 +5768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &474200484 stripped
@@ -5731,7 +5863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 477394753}
   - component: {fileID: 477394754}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemy_Ship_Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6056,6 +6188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1001 &497223513
@@ -6068,6 +6204,10 @@ PrefabInstance:
     - target: {fileID: 1863098223711405214, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098223711405215, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1863098223848308770, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6125,9 +6265,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_Ice_Enemy (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1863098223848308771, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098223936763072, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1863098224849648612, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098224849648613, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
@@ -6241,7 +6393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 519868486}
   - component: {fileID: 519868487}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemy_Ship_Sprite (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6506,6 +6658,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 15.14
       objectReference: {fileID: 0}
+    - target: {fileID: 1863098223711405215, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1863098223848308770, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 122.29
@@ -6562,9 +6718,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_Ice_Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 1863098223848308771, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098223936763072, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1863098224849648612, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098224849648613, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
@@ -6586,6 +6754,10 @@ PrefabInstance:
     - target: {fileID: 8876929972278761507, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
       propertyPath: m_TagString
       value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876929972278761507, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8876929972278761511, guid: a6f9411c23a88b24db7894608a3eece0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6693,7 +6865,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2761097940060172229, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
       propertyPath: m_WhatIsGround.m_Bits
-      value: 1559
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2761097940070204933, guid: b0704e5a9db874a41b8565e677c7ab70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7063,6 +7235,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice_Health_Pickup (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8231293962344338862, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
 --- !u!4 &579201499 stripped
@@ -7153,6 +7329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1 &579709320
@@ -7166,7 +7346,7 @@ GameObject:
   - component: {fileID: 579709321}
   - component: {fileID: 579709323}
   - component: {fileID: 579709322}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger4
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -7350,6 +7530,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -7753,6 +7937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &603197301 stripped
@@ -7926,6 +8114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &610290713 stripped
@@ -8019,6 +8211,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -8261,6 +8457,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -8595,6 +8795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1001 &669545235
@@ -8659,6 +8863,10 @@ PrefabInstance:
     - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_Name
       value: Spike_Strip (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
@@ -8749,6 +8957,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -9235,6 +9447,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &696053490 stripped
@@ -9523,6 +9739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &721919962 stripped
@@ -9541,7 +9761,7 @@ GameObject:
   - component: {fileID: 737193005}
   - component: {fileID: 737193004}
   - component: {fileID: 737193003}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: EnemyShip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9869,7 +10089,7 @@ GameObject:
   m_Component:
   - component: {fileID: 765870527}
   - component: {fileID: 765870526}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Jump(NEW)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10447,6 +10667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &782424011 stripped
@@ -10587,6 +10811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
 --- !u!1 &795970724
@@ -10598,7 +10826,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 795970725}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TextBoxTriggers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10796,6 +11024,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 3.3
       objectReference: {fileID: 0}
+    - target: {fileID: 1863098223711405215, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1863098223848308770, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 410.25
@@ -10852,9 +11084,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_Ice_Enemy (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1863098223848308771, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098223936763072, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1863098224849648612, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098224849648613, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
@@ -10874,7 +11118,7 @@ GameObject:
   - component: {fileID: 810037341}
   - component: {fileID: 810037343}
   - component: {fileID: 810037342}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger1
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -11578,6 +11822,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike_Strip (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
 --- !u!1001 &844113727
@@ -11745,7 +11993,7 @@ GameObject:
   m_Component:
   - component: {fileID: 847070657}
   - component: {fileID: 847070658}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GameObject (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11879,6 +12127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &853039393 stripped
@@ -11961,6 +12213,10 @@ PrefabInstance:
     - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_Name
       value: Spike_Strip (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
@@ -12428,6 +12684,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &929096807 stripped
@@ -12595,6 +12855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &943182112 stripped
@@ -12698,7 +12962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 948303593}
   - component: {fileID: 948303594}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12834,7 +13098,7 @@ GameObject:
   - component: {fileID: 955935662}
   - component: {fileID: 955935664}
   - component: {fileID: 955935663}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger6
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -12950,6 +13214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike_Strip (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
 --- !u!1001 &957566868
@@ -13014,6 +13282,10 @@ PrefabInstance:
     - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_Name
       value: Spike_Strip (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
@@ -13345,6 +13617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice_Health_Pickup
       objectReference: {fileID: 0}
+    - target: {fileID: 8231293962344338862, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
 --- !u!1001 &984078101
@@ -13433,6 +13709,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -13747,6 +14027,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1001 &1030877833
@@ -13828,7 +14112,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1036830789}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Checkpoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13942,6 +14226,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &1039716684 stripped
@@ -14036,6 +14324,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
 --- !u!1001 &1054223184
@@ -14112,6 +14404,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -14311,7 +14607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1082036503}
   - component: {fileID: 1082036504}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemy_Ship_Sprite (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14857,6 +15153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1 &1210814834
@@ -14913,7 +15213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6546771406335989964, guid: 8299fc1d097994d448678778c796d589, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -16.3
+      value: -14.21
       objectReference: {fileID: 0}
     - target: {fileID: 6546771406335989964, guid: 8299fc1d097994d448678778c796d589, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14961,11 +15261,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9133304253921605112, guid: 8299fc1d097994d448678778c796d589, type: 3}
       propertyPath: m_Offset.y
-      value: -4.9653835
+      value: -0.11834645
       objectReference: {fileID: 0}
     - target: {fileID: 9133304253921605112, guid: 8299fc1d097994d448678778c796d589, type: 3}
       propertyPath: m_Size.y
-      value: 23.157108
+      value: 13.463032
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8299fc1d097994d448678778c796d589, type: 3}
@@ -15071,7 +15371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1215259878}
   - component: {fileID: 1215259877}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: 351424__yyw__laughing-just-like-little-yellow-guy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15395,6 +15695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice_Health_Pickup (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8231293962344338862, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
 --- !u!4 &1234979970 stripped
@@ -15455,7 +15759,7 @@ GameObject:
   - component: {fileID: 1244698896}
   - component: {fileID: 1244698898}
   - component: {fileID: 1244698897}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger5
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -15602,6 +15906,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -15849,7 +16157,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1284919404}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Health Pickups
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16096,6 +16404,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -16423,6 +16735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike_Strip (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
 --- !u!4 &1320060374 stripped
@@ -16513,6 +16829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1001 &1336086924
@@ -16601,6 +16921,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -17046,6 +17370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &1379091291 stripped
@@ -17216,6 +17544,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &1405620061 stripped
@@ -17371,6 +17703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1001 &1414602882
@@ -17427,6 +17763,10 @@ PrefabInstance:
     - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
       propertyPath: m_Name
       value: Checkpoint (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
@@ -17904,7 +18244,7 @@ GameObject:
   - component: {fileID: 1455258018}
   - component: {fileID: 1455258017}
   - component: {fileID: 1455258016}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTriggerEnd
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -18057,6 +18397,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &1464119059 stripped
@@ -18186,6 +18530,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -18464,6 +18812,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -18817,6 +19169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1 &1523031623
@@ -18830,7 +19186,7 @@ GameObject:
   - component: {fileID: 1523031624}
   - component: {fileID: 1523031626}
   - component: {fileID: 1523031625}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger3
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -18977,6 +19333,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -19163,6 +19523,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &1546455893 stripped
@@ -19256,6 +19620,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -19638,6 +20006,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DEATH_floor (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4020015031657586791, guid: 9d4aa3623b4c5174b9eeb05ee3f2af35, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d4aa3623b4c5174b9eeb05ee3f2af35, type: 3}
 --- !u!4 &1587923505 stripped
@@ -19734,7 +20106,7 @@ GameObject:
   - component: {fileID: 1592321894}
   - component: {fileID: 1592321896}
   - component: {fileID: 1592321895}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: TextTrigger7
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -20056,6 +20428,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &1614468761 stripped
@@ -20073,6 +20449,10 @@ PrefabInstance:
     - target: {fileID: 1863098223711405214, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098223711405215, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1863098223848308770, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20130,9 +20510,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_Ice_Enemy (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1863098223848308771, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098223936763072, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1863098224849648612, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098224849648613, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
@@ -20384,6 +20776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &1631853401 stripped
@@ -20556,6 +20952,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &1633029092 stripped
@@ -20727,6 +21127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &1660831312 stripped
@@ -20821,6 +21225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &1663115780 stripped
@@ -20888,6 +21296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2206948198599644024, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 213de4eaebe9b6644b46eeaa2d1aefde, type: 3}
 --- !u!1 &1672930386
@@ -20900,7 +21312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1672930387}
   - component: {fileID: 1672930388}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Death sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21345,6 +21757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1001 &1727283317
@@ -21425,6 +21841,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -21582,6 +22002,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1001 &1736260941
@@ -21671,6 +22095,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!4 &1736260942 stripped
@@ -21744,6 +22172,10 @@ PrefabInstance:
     - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_Name
       value: Spike_Strip (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
@@ -22031,6 +22463,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike_Strip (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
 --- !u!4 &1761762258 stripped
@@ -22104,6 +22540,10 @@ PrefabInstance:
     - target: {fileID: 8231293962344338862, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
       propertyPath: m_Name
       value: Ice_Health_Pickup (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8231293962344338862, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
@@ -22244,6 +22684,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike_Strip (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
 --- !u!4 &1814845684 stripped
@@ -22261,6 +22705,10 @@ PrefabInstance:
     - target: {fileID: 1863098223711405214, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098223711405215, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1863098223848308770, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22318,9 +22766,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_Ice_Enemy (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1863098223848308771, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098223936763072, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1863098224849648612, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098224849648613, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
@@ -22356,7 +22816,7 @@ GameObject:
   - component: {fileID: 1840888235}
   - component: {fileID: 1840888234}
   - component: {fileID: 1840888237}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PC_Ship
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22532,6 +22992,10 @@ PrefabInstance:
     - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
       propertyPath: m_Name
       value: Spike_Strip (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
@@ -22869,6 +23333,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 3.3
       objectReference: {fileID: 0}
+    - target: {fileID: 1863098223711405215, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1863098223848308770, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 269.56
@@ -22925,9 +23393,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_Ice_Enemy (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1863098223848308771, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098223936763072, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1863098224849648612, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098224849648613, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
@@ -23275,6 +23755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1001 &1915503036
@@ -23287,6 +23771,10 @@ PrefabInstance:
     - target: {fileID: 1863098223711405214, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098223711405215, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1863098223848308770, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23344,9 +23832,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving_Ice_Enemy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1863098223848308771, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098223936763072, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1863098224849648612, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863098224849648613, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe8740766dc42f14baffe9080d6f242a, type: 3}
@@ -23413,6 +23913,10 @@ PrefabInstance:
     - target: {fileID: 8231293962344338862, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
       propertyPath: m_Name
       value: Ice_Health_Pickup (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8231293962344338862, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9d5680bf0f251499f5b8b23d18b50b, type: 3}
@@ -23732,6 +24236,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1001 &1952245404
@@ -23891,7 +24399,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1985736084}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hazards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24133,6 +24641,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike_Strip (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8106139953503145470, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb651d86ff61f4dba3443af153ac7d, type: 3}
 --- !u!4 &1991416695 stripped
@@ -24369,6 +24881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1 &2014675260
@@ -24460,7 +24976,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2016372570}
   - component: {fileID: 2016372569}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ClippingWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24594,6 +25110,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -24965,6 +25485,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1001 &2073245239
@@ -25054,6 +25578,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Falling_Ice_Spike (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
 --- !u!1 &2081795267
@@ -25066,7 +25594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2081795268}
   - component: {fileID: 2081795269}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25122,7 +25650,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2082399279}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25322,6 +25850,10 @@ PrefabInstance:
     - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
       propertyPath: m_Name
       value: Falling_Ice_Spike (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008977727779782239, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d75ab1b03911cd44e9959f99c63e8015, type: 3}
@@ -25563,7 +26095,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2127853886}
   - component: {fileID: 2127853887}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: laserfire01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
